@@ -1,15 +1,14 @@
-*SPOTIFY DATA & AI GOVERNANCE* PROJECT
+*SPOTIFY'S DATA & AI GOVERNANCE* PROJECT
 ===
 
-# 4. *Presentation to Stakeholders*
+# 4. Presentation To Stakeholders
 
 > *Nicolas Pichon - AIA RNCP 38777 / BC01 - Présentation du 2026/10/13 - v4.*
 
-> *v2 : intègre les annexes du plan d'implémentation \[D3, annexes 3.A-3.G\]. Les slides de backup correspondantes sont regroupées dans un document séparé \[D4, annexes\], selon la même convention que \[D1\]-\[D3\].*
-
 ---
 
-## Slide 1 — Titre
+## Slides
+### Slide 1 - Titre
 
 **Gouvernance des Données et de l'IA**
 *Evaluation, organisation et plan de mise en œuvre*
@@ -24,7 +23,7 @@
 
 ---
 
-## Slide 2 — Diagnostic
+### Slide 2 - Diagnostic
 
 **Une maturité data en phase initiale, un potentiel analytique déjà avancé**
 
@@ -57,7 +56,7 @@ Le cadre de gouvernance est partiellement défini (rôles, outils) mais pas enco
 
 ---
 
-## Slide 3 - Enjeux
+### Slide 3 - Enjeux
 
 **Six enjeux majeurs - par ordre de criticité**
 
@@ -76,7 +75,7 @@ Le cadre de gouvernance est partiellement défini (rôles, outils) mais pas enco
 
 ---
 
-## Slide 4 - Politique de gouvernance
+### Slide 4 - Politique de gouvernance
 
 **Neuf principes structurent le cadre de gouvernance**
 
@@ -93,7 +92,7 @@ Le cadre de gouvernance est partiellement défini (rôles, outils) mais pas enco
 
 ---
 
-## Slide 5 - Organisation
+### Slide 5 - Organisation
 
 **Un modèle *Center of Excellence* adapté à Spotify**
 
@@ -108,7 +107,7 @@ Le cadre de gouvernance est partiellement défini (rôles, outils) mais pas enco
 
 **Le mécanisme charnière** : rattachement fonctionnel des Data Stewards au CDO, organisationnel au département --> principal levier contre le cloisonnement (E1).
 
-![Organigramme de gouvernance des données et de l'IA chez Spotify](spotify-step-2-2-organizational-chart--diagram.png)
+![Organigramme de gouvernance des données et de l'IA chez Spotify](spotify-step-4-organizational-chart--diagram.png)
 
 *Trait plein = rattachement hiérarchique · Trait pointillé = rattachement fonctionnel / transverse*
 
@@ -120,7 +119,7 @@ Le cadre de gouvernance est partiellement défini (rôles, outils) mais pas enco
 
 ---
 
-## Slide 6 — Outillage 
+### Slide 6 - Outillage 
 
 **Une sélection d'outils avancés**
 
@@ -143,7 +142,7 @@ Le cadre de gouvernance est partiellement défini (rôles, outils) mais pas enco
 
 ---
 
-## Slide 7 — Gouvernance de l'IA : une responsabilité proportionnée
+### Slide 7 - Gouvernance de l'IA : une responsabilité proportionnée
 
 **Une responsabilité proportionnée au niveau d'impact**
 
@@ -170,7 +169,7 @@ Le cadre de gouvernance est partiellement défini (rôles, outils) mais pas enco
 
 ---
 
-## Slide 8 - Implémentation d'un pilote
+### Slide 8 - Implémentation d'un pilote
 
 **Périmètre pilote** : modèles et données d'entraînement du système de recommandation dans la limite du département *Product Development*.
 **Durée** : 21 semaines, en 4 grandes phases :
@@ -206,7 +205,7 @@ Le double rattachement des Data Stewards est évalué séparément par 5 indicat
 
 ---
 
-## Slide 9 — Feuille de route de généralisation
+### Slide 9 - Feuille de route de généralisation
 
 **Une généralisation en quatre phase pour monter au niveau 3**
 
@@ -234,7 +233,7 @@ Le double rattachement des Data Stewards est évalué séparément par 5 indicat
 
 ---
 
-## Slide 10 — Valeurs métiers & au-delà
+### Slide 10 - Valeurs métiers & au-delà
 
 **Une gouvernance de confiance et de croissance**
 

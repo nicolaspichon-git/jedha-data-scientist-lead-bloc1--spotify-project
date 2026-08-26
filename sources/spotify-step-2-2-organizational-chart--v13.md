@@ -9,7 +9,7 @@
 
 L'organigramme ci-dessous s'appuie sur les rôles pré-définis dans \[R6\] (*CDO*, *DPO*, *DGC*, *DS*) et sur les rôles manquants identifiés dans \[D1\] (*Data Owner*, *Data Custodian*, *Model Owner*, *Model Risk Manager*).
 
-![Organigramme de gouvernance des données et de l'IA chez Spotify](spotify-step-2-2-organizational-chart--diagram.png)
+![Organigramme de gouvernance des données et de l'IA chez Spotify](aia-spotify/step-2/spotify-step-2-2-organizational-chart--diagram.png)
 
 > *Convention : trait plein = rattachement hiérarchique, trait pointillé = rattachement fonctionnel, d'escalade, ou relation transverse.*
 

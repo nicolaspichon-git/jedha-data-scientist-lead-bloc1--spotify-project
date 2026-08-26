@@ -1,19 +1,21 @@
-*SPOTIFY DATA & AI GOVERNANCE* PROJECT
+*SPOTIFY'S DATA & AI GOVERNANCE* PROJECT
 ===
 
-# 4. *Presentation to Stakeholders*
+# 4. Presentation to Stakeholders
 
 > *Nicolas Pichon - AIA RNCP 38777 / BC01 - Annexes du 2026/10/13 - v4.*
 
 ---
 
-## Annexes — Slides de backup
+## Annexes
+
+### Backup Pages
 
 *Slides de réserve destinées à supporter les réponses aux questions des parties prenantes anticipées dans le guide \[R11\].*
 
 ---
 
-### B1. Comparaison des modèles d'organisation de la gouvernance data
+#### B1. Comparaison des modèles d'organisation de la gouvernance data
 
 | Modèle | Avantages | Limites |
 |---|---|---|
@@ -45,7 +47,7 @@ Principe résumé : *« gouverner et outiller au centre, exécuter à la périph
 
 ---
 
-### B2. Justification complète de la sélection d'outils
+#### B2. Justification complète de la sélection d'outils
 
 **Principes** \[D3 §3.C.1\] :
 1. Repartir des recommandations \[R8\], compléter par des alternatives open source, prioriser l'open source.
@@ -79,7 +81,7 @@ Principe résumé : *« gouverner et outiller au centre, exécuter à la périph
 
 ---
 
-### B3. Circuit de gouvernance des modèles d'IA — matrices RACI complètes
+#### B3. Circuit de gouvernance des modèles d'IA — matrices RACI complètes
 
 **Amendement à la politique** \[D21 §2.1.3, P8\] : *« Cette gouvernance est proportionnée au niveau d'impact de chaque modèle sur l'utilisateur et sur l'entreprise, selon les critères et les circuits de validation différenciés définis en section 2.1.5, afin que l'intensité du contrôle ne freine pas disproportionnellement le déploiement des modèles à faible risque. »*
 
@@ -126,7 +128,7 @@ Principe résumé : *« gouverner et outiller au centre, exécuter à la périph
 
 ---
 
-### B4. Plan pilote — calendrier détaillé des jalons
+#### B4. Plan pilote — calendrier détaillé des jalons
 
 | Jalon | Semaine | Actions | Porteur |
 |---|---|---|---|
@@ -156,7 +158,7 @@ Principe résumé : *« gouverner et outiller au centre, exécuter à la périph
 
 ---
 
-### B5. Méthode de mesure des KPIs et du double rattachement
+#### B5. Méthode de mesure des KPIs et du double rattachement
 
 **Méthode de mesure des dimensions DMAT** — la re-cotation porte uniquement sur les sous-questions déjà mappées à chaque dimension \[D1, annexe 1.A\], sur le périmètre pilote uniquement (pas l'ensemble de l'organisation) :
 
@@ -184,7 +186,7 @@ Trois de ces cinq indicateurs sont captés nativement par Collibra, sans outil s
 
 ---
 
-### B6. Gestion des risques du pilote
+#### B6. Gestion des risques du pilote
 
 **Risques de suspension (sans repli)**
 
@@ -220,7 +222,7 @@ Trois de ces cinq indicateurs sont captés nativement par Collibra, sans outil s
 
 ---
 
-### B7. Conditions de passage à l'échelle (feu vert / orange / rouge)
+#### B7. Conditions de passage à l'échelle (feu vert / orange / rouge)
 
 | Dispositif testé | Critère de passage à l'échelle | Si échec / résultat mitigé |
 |---|---|---|
@@ -237,7 +239,7 @@ Trois de ces cinq indicateurs sont captés nativement par Collibra, sans outil s
 
 ---
 
-### B8. Ajustements attendus au cadre de gouvernance
+#### B8. Ajustements attendus au cadre de gouvernance
 
 1. Intégration formelle dans \[D21 §2.1.3/§2.1.5\] et \[D22, annexe 2.2.C\] de l'amendement de proportionnalité par niveau d'impact (§3.E), avec calibration finale des seuils selon les résultats du pilote.
 2. Révision du tableau d'outils §3.4 sur les deux lignes explicitement testées (recouvrement Soda Core/OpenMetadata, suffisance de Soda Core pour E5) — non définitives avant la fin de la phase 1.
@@ -249,7 +251,7 @@ Trois de ces cinq indicateurs sont captés nativement par Collibra, sans outil s
 
 ---
 
-### B9. Trajectoire de maturité détaillée
+#### B9. Trajectoire de maturité détaillée
 
 | Échéance | Étape | Niveau de maturité visé | Repère exécutif \[R11, Q7\] |
 |---|---|---|---|
@@ -264,14 +266,3 @@ Trois de ces cinq indicateurs sont captés nativement par Collibra, sans outil s
 *Source : \[D3\] §3.G.4*
 
 ---
-## Sources
-
-- \[R1\] Australian Government Data Maturity Assessment Tool (2026)
-- \[R2\] Spotify Business Case
-- \[R7\] Organizational Models Overview
-- \[R8\] Tech Tools Overview
-- \[R11\] Executive Q&A Guide
-- \[D1\] Data Maturity Assessment Report
-- \[D21\] Data Governance Policy Document
-- \[D22\] Roles and Responsibilities Organizational Chart
-- \[D3\] Implementation Plan, annexes 3.A-3.G

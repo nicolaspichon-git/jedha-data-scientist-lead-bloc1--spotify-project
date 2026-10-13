@@ -1,15 +1,24 @@
+---
+version: v13
+tags:
+  - _RNCP38777
+  - _2026
+  - aia
+  - aia/bc01
+  - spotify-project
+  - spotify-project/step-2-2
+  - spotify-project/step-2-2/organizational-roles-and-responsabilities-chart
+---
 *SPOTIFY'S DATA & AI GOVERNANCE* PROJECT
 ===
-
 # 2.2. *Organizational Roles & Responsibilities* Chart
 
-> *Nicolas Pichon ~ AIA RNCP 38777 / BC01  / Step 2-2 / v13 ~ 2026/10/15.*
-
+> *Nicolas Pichon --- AIA RNCP 38777 / BC01  / Step 2-2 / v13 --- 2026/10/15.*
 ---
 
 L'organigramme ci-dessous s'appuie sur les rôles pré-définis dans \[R6\] (*CDO*, *DPO*, *DGC*, *DS*) et sur les rôles manquants identifiés dans \[D1\] (*Data Owner*, *Data Custodian*, *Model Owner*, *Model Risk Manager*).
 
-![Organigramme de gouvernance des données et de l'IA chez Spotify](aia-spotify/step-2/spotify-step-2-2-organizational-chart--diagram.png)
+![Organigramme de gouvernance des données et de l'IA chez Spotify](aia-spotify/step-2/diagrams/spotify-step-2-2-organizational-chart--diagram.png)
 
 > *Convention : trait plein = rattachement hiérarchique, trait pointillé = rattachement fonctionnel, d'escalade, ou relation transverse.*
 
@@ -20,7 +29,7 @@ L'organigramme ci-dessous s'appuie sur les rôles pré-définis dans \[R6\] (*CD
 
 *Data Governance Committee* (DGC) est présidé par *CDO* et lui rapporte directement.
 
-Le*Model Risk Manager* rapporte au *CDO* pour les affaires courantes, et au *DGC*, en *escalade directe*, pour certaines décisions. La possibilité de s'adresser directement au *DGC* permet de préserver l'indépendance du *MRM* dans sa fonction de contrôle, sans la faire dépendre des entités dont elle évalue les modèles.
+Le *Model Risk Manager* rapporte au *CDO* pour les affaires courantes, et au *DGC*, en *escalade directe*, pour certaines décisions. La possibilité de s'adresser directement au *DGC* permet de préserver l'indépendance du *MRM* dans sa fonction de contrôle, sans la faire dépendre des entités dont elle évalue les modèles.
 
 Les *Data Stewards* ont un double rattachement : fonctionnel au *CDO* (standards, méthodologie, qualité) et organisationnel au département dans lequel ils sont intégrés. Ce mécanisme contribue à ouvrir les silos de données identifiés dans \[R2\] en alignant les départements sur le standard commun porté par *CDO*, tout en leur permettant de conserver la responsabilité des données de métier.
 
@@ -31,11 +40,12 @@ Les *Data Custodians*, du fait de leur fonction technique (garde, sécurité, sa
 Les *Model Owners* sont intégrés dans le département *Product Development*, l'entité décisionnelle où sont développés les produits *data-driven* (moteur de recommandation, etc.). Conformément à la pratique du *model risk management*, la fonction de *Model Owners* (au plus près de la production des modèles) est séparée de celle de *Model Risk Manager* (qui les contrôle).
 
 ---
+
 ## Références
-### Annexes
-- \[D22-Annexes\] [*Organizational Chart's Annexes*](spotify-step-2-2-organizational-chart--annexes.pdf)
+
 ### Livrables
 - \[D1\] [*Data Maturity Assessment Report*](spotify-step-1-maturity-report.pdf)
+
 ### Ressources
 - \[R2\] [Spotify Business Case](1-spotify-business-case.pdf)
 - \[R6\] [Data Governance Roles Template](5-data-governance-roles-template.pdf)

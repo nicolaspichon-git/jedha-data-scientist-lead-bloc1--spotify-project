@@ -1,4 +1,5 @@
 ---
+version: v22
 tags:
   - _RNCP38777
   - _2026
@@ -6,22 +7,20 @@ tags:
   - aia/bc01
   - spotify-project
   - spotify-project/step-1
-  - spotify-data-and-ai-maturity-assessment-report
+  - spotify-project/step-1/data-maturity-assessment-report
+  - spotify-project/step-1/data-and-ai-maturity-assessment-report
 ---
-
 *SPOTIFY'S DATA & AI GOVERNANCE* PROJECT
 ===
-
 # 1. *Data & AI Maturity Assessment* Report
-
-> *Nicolas Pichon ~ AIA RNCP 38777 / BC01 / Step 1 / v22 ~ 2026/10/15.*   
-
+> *Nicolas Pichon --- AIA RNCP 38777 / BC01 / Step 1 / v22 --- 2026/10/15.*   
 ---
+
 ## 1.1. Évaluation de la maturité *Data/AI* chez *Spotify*
 
 Les tableaux ci-dessous évaluent la maturité de la gouvernance des données et des modèles d'IA chez Spotify, d'après les informations fournies par le *business case* \[R2\] et selon la méthodologie d'évaluation encadrée par le *DMAT Australien* \[R1\]. 
 
-> Noter que les domaines *DO*, *MRD*, *MDT* absorbent les questions de \[R1\] sans correspondance dans \[R3\]. 
+> Les domaines *DO*, *MRD*, *MDT* absorbent les questions de \[R1\] sans correspondance dans \[R3\]. 
 
 En bref : Spotify a une capacité analytique relativement avancée en analytique (moteurs d'inférence en production) mais la gouvernance des données proprement dite reste faible. Un cadre de gouvernance est établi (rôles définis, outils identifiés) mais il n'est pas encore déployé (pas d'audits, pas d'installations, pas de déploiement des politiques). Le niveau moyen de maturité selon l'échelle de valeurs  donnée par \[R1\] reste proche de *1* (gouvernance locale, dispersée, réactive).
 
@@ -108,12 +107,11 @@ Le développement de *Spotify* autour d'une culture *data-driven* implique une *
 
 ## Références
 
-### Annexes
-- \[D1-Annexes\] [*Data Maturity Assessment Report's Annexes*](spotify-step-1-maturity-report--annexes.pdf)
 ### Ressources
 - \[R1\] [*Australian Government Data Maturity Assessment Tool* (2026)](0-AustralianDataMaturityAssessmentTool.pdf)
 - \[R2\] [Spotify Business Case](1-spotify-business-case.pdf)
 - \[R3\] [Data Maturity Assessment Template](2-data-maturity-assessment-template.pdf)
+- 
 ### Documents applicables
 - \[A1\]  _General Data Protection Regulation_ - Règlement (UE) 2016/679, 27 avril 2016. JO L 119, 4.5.2016.
 - \[A2\]  _California Consumer Privacy Act of 2018_, Cal. Civ. Code § 1798.100, amendé / CPRA (Prop. 24, 2020).

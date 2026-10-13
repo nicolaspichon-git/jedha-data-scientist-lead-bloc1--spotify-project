@@ -1,10 +1,21 @@
+---
+version: v4
+status: obsolete
+tags:
+  - _RNCP38777
+  - _2026
+  - aia
+  - aia/bc01
+  - spotify-project
+  - spotify-project/step-4
+  - spotify-project/step-4/presentation
+---
 *SPOTIFY'S DATA & AI GOVERNANCE* PROJECT
 ===
 
 # 4. Presentation To Stakeholders
 
-> *Nicolas Pichon - AIA RNCP 38777 / BC01 - Présentation du 2026/10/15 / v4.*
-
+> *Nicolas Pichon ~ AIA RNCP 38777 / BC01 / Presentation / v4 ~ 2026/10/15.
 ---
 
 ## Slides
@@ -20,6 +31,8 @@
 > *Note : Spotify opère à l'échelle mondiale avec une dépendance forte aux données (recommandation, personnalisation, monétisation). Le projet répond à une demande de cadrage transverse - gouvernance des données ET de l'IA. Objectifs de la session : validation du cadre de gouvernance, de sa politique, de son organisation, du plan d'implémentation pilote et de sa généralisation.*
 
 *Source : \[R0\], \[R2\]*
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -54,6 +67,8 @@ Le cadre de gouvernance est partiellement défini (rôles, outils) mais pas enco
 
 *Source : \[D1\], \[R1\]*
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### Slide 3 - Enjeux
@@ -73,6 +88,8 @@ Le cadre de gouvernance est partiellement défini (rôles, outils) mais pas enco
 
 *Source : \[D1\] §1.2, enjeux dérivés de \[R2\]*
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### Slide 4 - Politique de gouvernance
@@ -89,6 +106,8 @@ Le cadre de gouvernance est partiellement défini (rôles, outils) mais pas enco
 > *Note : P8 est le principe le plus opérationnalisé avec ses 4 exigences concrètes (traçabilité, biais, responsabilité/approbation proportionnée, explicabilité). Une adaptation des workflows de déploiement des modèles ML/IA à leur impact sur les utilisateurs est proposée dans le plan d'implémentation \[D3 annexe 3.E\] - détails slide 7.*
 
 *Source : \[D21\] §2.1.3, \[R4\]*
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -117,6 +136,8 @@ Le cadre de gouvernance est partiellement défini (rôles, outils) mais pas enco
 
 *Source : \[D22\], \[D3\] §3.3, annexe 3.B*
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### Slide 6 - Outillage 
@@ -139,6 +160,8 @@ Le cadre de gouvernance est partiellement défini (rôles, outils) mais pas enco
 > *Note : deux réserves documentées sur Soda Core — solution de repli Cuallee si les contrôles statistiques ML s'avèrent insuffisants (E5), solution de repli TestGen si la feuille de route éditeur se réoriente vers l'offre commerciale Soda Cloud. Justification complète par outil (y compris solutions écartées) → backup B2.*
 
 *Source : \[D3\] §3.4, §3.C · Alternatives évaluées : \[R8\]*
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -167,6 +190,8 @@ Le cadre de gouvernance est partiellement défini (rôles, outils) mais pas enco
 
 *Source : \[D21\] §2.1.5 · Amendement \[D3\] annexe 3.E*
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### Slide 8 - Implémentation d'un pilote
@@ -177,7 +202,7 @@ Le cadre de gouvernance est partiellement défini (rôles, outils) mais pas enco
 | Phase | Semaines | Contenu |
 |---|---|---|
 | Sécurisation *(bloquante)* | S1-S7 | Annuaire central, migration des accès, test d'intégration bout-en-bout, revue de poursuite/suspension |
-| Déploiement technique | S8-S17 | Outils (OpenMetadata, DVC, Soda Core, MLflow, AIF360, AIX360, Wazuh, OpenBao) + population du RoPA en parallèle |
+| Déploiement technique | S8-S14 | Outils (OpenMetadata, DVC, Soda Core, MLflow, AIF360, AIX360, Wazuh, OpenBao) + population du RoPA en parallèle |
 | Classification & exécution réelle | S14-S17 | Classification du modèle, contrôle qualité courant et données d'entraînement |
 | Approbation & clôture | S18-S21 | Premier passage du circuit d'approbation, consolidation, revue finale |
 
@@ -202,6 +227,8 @@ Le double rattachement des Data Stewards est évalué séparément par 5 indicat
 > 🎤 *Note : la conformité RGPD complète (E3/E4) reste hors périmètre du pilote — un RoPA scopé à un seul département ne vaut pas conformité article 30. Calendrier détaillé des 16 jalons, méthode complète de mesure et liste intégrale des risques → backups B4, B5, B6.*
 
 *Source : \[D3\] §3.4-§3.5, annexes 3.F*
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -231,6 +258,8 @@ Le double rattachement des Data Stewards est évalué séparément par 5 indicat
 
 *Source : \[D3\] §3.6, annexes 3.G*
 
+<div style="page-break-after: always;"></div>
+
 ---
 
 ### Slide 10 - Valeurs métiers & au-delà
@@ -252,6 +281,8 @@ Le double rattachement des Data Stewards est évalué séparément par 5 indicat
 > 🎤 *Note : les prochaines étapes sont volontairement concrètes et actionnables dès la sortie de cette réunion. La gouvernance des décisions de passage à l'échelle se fait phase par phase, pas comme un engagement global figé sur 24 mois.*
 
 *Source : \[R11\], \[D3\] §3.6*
+
+<div style="page-break-after: always;"></div>
 
 ---
 ## Références

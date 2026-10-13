@@ -1,10 +1,20 @@
+---
+version: v14
+tags:
+  - _RNCP38777
+  - _2026
+  - aia
+  - aia/bc01
+  - spotify-project
+  - spotify-project/step-2-1
+  - spotify-project/step-2-1/data-governance-policy-document
+  - spotify-project/step-2-1/data-and-ai-governance-policy-document
+---
 *SPOTIFY'S DATA & AI GOVERNANCE* PROJECT
 ===
-
 # 2.1. *Data & AI Governance Policy* Document
 
-> *Nicolas Pichon ~ AIA RNCP 38777 / BC01 / Step 2-1 / v14 ~ 2026/10/15.* 
-
+> *Nicolas Pichon --- AIA RNCP 38777 / BC01 / Step 2-1 / v14 --- 2026/10/15.* 
 ---
 
 ## 2.1.1. Objectifs
@@ -48,7 +58,7 @@ Les principes énumérés ci-dessous sont issus du référentiel \[R4\] et const
 
 ## 2.1.4. Conformité réglementaire
 
-La politique structure la mise en conformité en reprenant les exigences réglementaires cadre par cadre :
+La politique structure la conformité en reprenant les exigences réglementaires cadre par cadre :
 
 - **GDPR** 
 	- Traitement licite, loyal et transparent des données,
@@ -82,7 +92,7 @@ Ce socle est complété par un processus de *cartographie réglementaire* march�
 	- Les modèles qui impactent fortement l'utilisateur font l'objet d'une *évaluation périodique* des biais algorithmiques et de leurs effets sur la représentativité des contenus proposés.
 3. **Responsabilité et approbation des modèles**
 	- Chaque modèle en production est sous la responsabilité d'un *Model Owner* bien identifié. 
-	- Le circuit d'approbation de déploiement d'un modèle est proportionné au *niveau d'impact* du modèle sur l'utilisateur (cf. définitions et circuits de validation dans \[D21-Annexes, 2.1.A\]).  
+	- Le circuit d'approbation de déploiement d'un modèle est proportionné au *niveau d'impact* du modèle sur l'utilisateur (cf. définitions et circuits de validation dans \[D21-Annexes, A\]).  
 4. **Explicabilité**
 	- Les décisions automatisées ayant un impact significatif sur l'expérience utilisateur doivent pouvoir être expliquées de manière intelligible, en cohérence avec les exigences émergentes de gouvernance de l'IA.
 

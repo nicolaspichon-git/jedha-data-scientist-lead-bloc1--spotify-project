@@ -1,25 +1,35 @@
+---
+version: v14
+tags:
+  - _RNCP38777
+  - _2026
+  - aia
+  - aia/bc01
+  - spotify-project
+  - spotify-project/step-3
+  - spotify-project/step-3/data-governance-implementation-plan 
+  - spotify-project/step-3/data-and-ai-governance-implementation-plan 
+---
 *SPOTIFY'S DATA & AI GOVERNANCE* PROJECT
 ===
+# 3. *Data & AI Governance Implementation* Plan
 
-# 3. *Data & AI Governance Implementation* Plan 
-
-> *Nicolas Pichon ~ AIA RNCP 38777 / BC01 / Step 3 / v14 ~ 2026/10/15.*
-
+> *Nicolas Pichon --- AIA RNCP 38777 / BC01 / Step 3 / v14 --- 2026/10/15.*
 ---
 
 ## 3.1. Objectifs
 
-Ce document présente un plan d'implémentation partielle de la gouvernance des données et des modèles dans le cadre du projet de gouvernance *Spotify*. Le plan proposé est motivé par les objectifs suivants :
+Ce document présente un plan d'implémentation de la gouvernance des données et des modèles dans le cadre du projet de gouvernance *Spotify*. Le plan proposé est motivé par les objectifs suivants :
 1. Outiller les rôles opérationnels de moyens techniques adaptés de leurs responsabilités ;
 2. Établir une source unique de vérité et un catalogue commun ;
-3. Valider la viabilité du modèle organisationnel et des outils retenus sur un périmètre limité avant généralisation ;
+3. Valider la viabilité du modèle organisationnel et des outils retenus sur un périmètre limité ;
 4. Elever tous les niveaux de maturité jusqu'au niveau 3, en priorisant les dimensions *Data Governance*, *Data Quality*, *Compliance* et *Data Security*.
 
 ## 3.3. Modèle organisationnel
 
 Le modèle d'organisation dit "*Center of Excellence*" (*CoE*) formalise l'organisation de la gouvernance des données et des modèles déjà structurée dans \[D22\], à quelques adaptations près. 
 
-*CoE* combine normalement un centre de compétences qui regroupe l'autorité de gouvernance et les services techniques partagés avec des départements de métier partiellement autonomes qui conservent la responsabilité opérationnelle de leurs données.  L'implémentation \[D22\] s'écarte du modèle canonique sur ces deux points : 1) en maintenant l'infrastructure et les compétences techniques dans le département *Engineering* ; 2) en séparant l'autorité de conformité (représentée par les rôles *DPO* et *Legal Team*) de l'autorité de gouvernance (représentée par les rôles *CDO* et *DGC*).
+*CoE* combine normalement un centre de compétences qui regroupe l'autorité de gouvernance et les services techniques partagés avec des départements de métier partiellement autonomes qui conservent la responsabilité opérationnelle de leurs données.  L'organisation \[D22\] s'écarte du modèle canonique sur ces deux points : 1) en maintenant l'infrastructure et les compétences techniques dans le département *Engineering* ; 2) en séparant l'autorité de conformité (représentée par les rôles *DPO* et *Legal Team*) de l'autorité de gouvernance (représentée par les rôles *CDO* et *DGC*).
 
 ## 3.4. Outils
 
@@ -73,34 +83,33 @@ E3/E4 restent hors du périmètre principal : la conformité *RGPD* globale impl
 
 **Calendrier (21 semaines).**
 
-| Jalons&nbsp;(\*) | Semaines | Actions                                                                                                                                                                                                                                             |
-| ---------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 01-06            | S1-S7    | **Phase de sécurisation** (\*\*) : existence d'un annuaire central *SAML*/*OIDC*, sécurisation des infrastructures préexistantes, vérification SSO de *TrustArc* et *RBAC* des autres outils, test d'intégration bout-en-bout, revue de validation. |
-| 07.1-07.2        | S8-S11   | Déploiement technique et population du *RoPA* (en parallèle, jusqu'à S17).                                                                                                                                                                          |
-| 08-09            | S12-S13  | Vérifications de recouvrement *Soda Core*/*OpenMetadata* et du connecteur *Collibra* ; population du glossaire *Collibra*.                                                                                                                          |
-| 10.1-10.2        | S14-S17  | Classification du modèle puis exécution en conditions réelles.                                                                                                                                                                                      |
-| 11-12            | S16-S17  | Vérification technique intermédiaire et revue intermédiaire.                                                                                                                                                                                        |
-| 13               | S18      | Premier passage du circuit d'approbation.                                                                                                                                                                                                           |
-| 14-16            | S19-S21  | Consolidation, synthèse, clôture.                                                                                                                                                                                                                   |
+| Jalon | Semaines | Actions                                                                                                                                                                                                                                             |
+| ----- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| A | S1-S7    | **Phase de sécurisation** (\*) : existence d'un annuaire central *SAML*/*OIDC*, sécurisation des infrastructures préexistantes, vérification SSO de *TrustArc* et *RBAC* des autres outils, test d'intégration bout-en-bout, revue de validation. |
+| B | S8-S11   | Déploiement technique et population du *RoPA* (en parallèle, jusqu'à S17).                                                                                                                                                                          |
+| C | S12-S13  | Vérifications de recouvrement *Soda Core*/*OpenMetadata* et du connecteur *Collibra* ; population du glossaire *Collibra*.                                                                                                                          |
+| D | S14-S17  | Classification du modèle puis exécution en conditions réelles.                                                                                                                                                                                      |
+| E | S16-S17  | Vérification technique intermédiaire et revue intermédiaire.                                                                                                                                                                                        |
+| F | S18      | Premier passage du circuit d'approbation.                                                                                                                                                                                                           |
+| G | S19-S21  | Consolidation, synthèse, clôture.                                                                                                                                                                                                                   |
 
-> (\*) Cf. détails du calendrier de déploiement du pilote \[D3-Annexes, §3.F\].
-> (\*\*) Phase *bloquante* : le projet ne peut pas passer aux étapes suivantes tant que la sécurisation de l'infrastructure n'est pas validée.
+> (\*) Phase *bloquante* : le projet ne peut pas passer aux étapes suivantes tant que la sécurisation de l'infrastructure n'est pas validée.
 
 **Livrables.** Rapport qualité des données, rapport de validation du circuit de classification/approbation, estimation de l'*engineering overhead*, note de recouvrement technique (repli *TestGen*/*Cuallee* si besoin), note de synchronisation du catalogage, note de contrôle d'accès (*RBAC*/*SSO*) , rapport de migration de sécurisation, rapport de déploiement incrémental *Collibra*/*RoPA*, retours des parties prenantes, rapport d'évaluation du double rattachement.
 
 <div style="page-break-after: always;"></div>
 
-**Indicateurs.** Trois dimensions *DMAT* re-cotées (*Data Governance*, *Data Quality* : niveau 1→2 ; *Analytics & BI*, *Gouvernance IA* : niveau 2→3), ancrées à des artefacts datés (logs *Soda Core*, workflows *Collibra*, dossiers de classification), validées par *DGC* au jalon 16 (S21). Le double rattachement est évalué séparément par cinq indicateurs : 1) adoption des standards,  2) délai de propagation, 3) fréquence de sollicitation, 4) cohérence terminologique (captés nativement via *Collibra*), 5) autonomie départementale (registre minimal dédié). Ces indicateurs sont combinés au critère négatif de §3.6.1 pour éviter qu'un canal inutilisé passe pour un succès.
+**Indicateurs.** Trois dimensions *DMAT* re-cotées (*Data Governance*, *Data Quality* : niveau 1→2 ; *Analytics & BI*, *Gouvernance IA* : niveau 2→3), ancrées à des artefacts datés (logs *Soda Core*, workflows *Collibra*, dossiers de classification), validées par *DGC* au jalon G (S21). Le double rattachement est évalué séparément par cinq indicateurs : 1) adoption des standards,  2) délai de propagation, 3) fréquence de sollicitation, 4) cohérence terminologique (captés nativement via *Collibra*), 5) autonomie départementale (registre minimal dédié). Ces indicateurs sont combinés au critère négatif de §3.6.1 pour éviter qu'un canal inutilisé passe pour un succès.
 
-**Risques.** Deux risques propres à la phase de sécurisation : 1) *suspension sans repli* (absence d'annuaire central, aucun palliatif possible, devient un chantier d'infrastructure séparé ; défaut de sécurisation non corrigeable avant le Jalon 06) et 2) *débordement de planning* (délai de réponse de *TrustArc* hors du contrôle du projet ; échec du test d'intégration bout-en-bout sans marge pour une seconde itération ; exécution en conditions réelles compressée à 4 semaines). S'y ajoutent les risques opérationnels : a) sous-estimation de la charge des *Data Custodians* (4 outils sur 10, repli vers l'offre managée *Collate*) ; b) collecte incomplète des profils d'accès existants (accès orphelins après bascule vers *OpenBao*) ; c) insuffisance de *Soda Core* pour E5 (repli *Cuallee*) ; d) dépriorisation à long terme de *Soda Core* au profit de *Soda Cloud* (repli *TestGen*) ; e) absence de classification préalable des données, condition de la fiabilité du *RoPA* ; f) désalignement avec les cycles budgétaires trimestriels lors des transitions inter-phases.
+**Risques.** Deux risques propres à la phase de sécurisation : 1) *suspension du projet sans solution de repli* (l'absence d'annuaire central est un défaut de sécurisation bloquant qui ne peut pas être corrigé dans le jalon A), et 2) *débordement de planning* (délai de réponse de *TrustArc*, échec du test d'intégration bout-en-bout sans marge pour une seconde itération, exécution en conditions réelles compressée sur 4 semaines). S'y ajoutent les risques opérationnels : a) sous-estimation de la charge des *Data Custodians* (4 outils sur 10) ; b) collecte incomplète des profils d'accès existants (accès orphelins après bascule vers *OpenBao*) ; c) insuffisance de *Soda Core* pour E5 (repli *Cuallee*) ; d) dépriorisation à long terme de *Soda Core* au profit de *Soda Cloud* (repli *TestGen*) ; e) absence de classification préalable des données, condition de la fiabilité du *RoPA* ; f) désalignement avec les cycles budgétaires trimestriels lors des transitions inter-phases.
 
-**Formation.** Session dédiée au *Data Steward* et au *Product Manager* sur le mécanisme de double rattachement (E6), et sur la répartition entre autorité fonctionnelle (*CDO*) et organisationnelle (département). Revue finale (jalon 16) structurée en trois axes : 1) ce qui a fonctionné mieux que prévu, 2) ce qui a nécessité un ajustement, ce qui reste non résolu.
+**Formation.** Session dédiée au *Data Steward* et au *Product Manager* sur le mécanisme de double rattachement (E6), et sur la répartition entre autorité fonctionnelle (*CDO*) et organisationnelle (département). Revue finale (jalon G) structurée en trois axes : 1) ce qui a fonctionné mieux que prévu, 2) ce qui a nécessité un ajustement, ce qui reste non résolu.
 
 ## 3.6. Feuille de route de généralisation
 
-**Conditions de passage à l'échelle.** Chaque dispositif reçoit une décision de type "feu vert/orange/rouge", adossée aux KPIs et aux risques du pilote : double rattachement (absence de conflit d'autorité, sinon clarification écrite plutôt qu'abandon), recouvrement *Soda Core*/*OpenMetadata* (décision au jalon 08), connecteur *Collibra*/*OpenMetadata* (jalon 09), capacité *Soda Core* / E5 (validée entre les jalons 08 et 11, sinon repli), circuits de classification/approbation (délais mesurés au jalon 13, resserrement des critères si circuits trop lents), déploiement incrémental *Collibra*/*RoPA* (extensible sans reconstruction majeure),  *engineering overhead* (séquencement pluriannuel si charge intenable), phase de sécurisation (franchissement du jalon 06).
+**Conditions de passage à l'échelle.** Chaque dispositif reçoit une décision de type "feu vert/orange/rouge", adossée aux KPIs et aux risques du pilote : double rattachement (absence de conflit d'autorité), recouvrement *Soda Core*/*OpenMetadata* (décision au jalon C (S12)), connecteur *Collibra*/*OpenMetadata* (jalon C (S13)), capacité *Soda Core* / E5 (validée entre les jalons C (S12) et E (S16), sinon repli), circuits de classification/approbation (délais mesurés au jalon F, resserrement des critères si circuits trop lents), déploiement incrémental *Collibra*/*RoPA* (extensible sans reconstruction majeure),  *engineering overhead* (séquencement pluriannuel si charge intenable), phase de sécurisation (franchissement du jalon A (S7)).
 
-**Séquencement.** Le pilote ne couvre qu'un sous-ensemble d'un seul département ; les autres activités du département *Product Development* et les autres départements de l'organigramme \[D22\] restent à couvrir, selon un ordre justifié par le niveau de risque et le coût marginal (*Marketing* en priorité pour E3/E4, *Content Curation* ensuite pour E2/métadonnées). La phase de sécurisation (jalons 01-06) ne se reproduit pas aux phases suivantes : l'annuaire central, les rôles *OpenBao* et les intégrations *SSO* déjà validés sont étendus - seule une migration allégée (régénération des secrets, collecte des profils) est reconduite pour chaque nouveau département. D'où une durée canonique de phase réduite pour les phases 2 à 4, et une marge inter-phases renforcée pour absorber le risque d'alignement aux cycles budgétaires trimestriels :
+**Séquencement.** Le pilote ne couvre qu'un sous-ensemble d'un seul département ; les autres activités du département *Product Development* et les autres départements de l'organigramme \[D22\] restent à couvrir, selon un ordre justifié par le niveau de risque et le coût marginal (*Marketing* en priorité pour E3/E4, *Content Curation* ensuite pour E2/métadonnées). La phase de sécurisation (jalon A) ne se reproduit pas aux phases suivantes : l'annuaire central, les rôles *OpenBao* et les intégrations *SSO* déjà validés sont étendus - seule une migration allégée (régénération des secrets, collecte des profils) est reconduite pour chaque nouveau département. D'où une durée canonique de phase réduite pour les phases 2 à 4, et une marge inter-phases renforcée pour absorber le risque d'alignement aux cycles budgétaires trimestriels :
 
 | Phase         | Périmètre                                                | Durée                 | Marge  | Fin cumulée |
 | ------------- | -------------------------------------------------------- | --------------------- | ------ | ----------- |

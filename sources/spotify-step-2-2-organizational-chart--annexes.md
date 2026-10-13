@@ -2,12 +2,11 @@
 ===
 
 # 2.2. *Organizational Roles & Responsibilities* Chart
+## Annexes
 
-> *Nicolas Pichon - AIA RNCP 38777 / BC01  / Step 2.2 / v13 - 2026/10/15.*
+> *Nicolas Pichon ~ AIA RNCP 38777 / BC01  / Step 2-2 / Annexes / v13 ~ 2026/10/15.*
 
 ---
-
-## Annexes
 
 ### 2.2.A. Détails des rôles et responsabilités
 
@@ -29,7 +28,7 @@
 
 <div style="page-break-after: always;"></div>
 
-### 2.2.B. Contribution aux enjeux majeurs définis en évaluation
+### 2.2.B. Couverture des enjeux définis en évaluation
 
 - **E1 (décompartimentation)** : partiellement résolu par l'introduction du *Data Owner* (autorité arbitrale par domaine) et le double rattachement des **Data Stewards** (fonctionnel CDO + organisationnel département). La structure organisationnelle pose les responsabilités nécessaires au décloisonnement mais ne précise pas comment construire la source unique de vérité, le catalogue et la plateforme commune, qui relèvent de la mise en œuvre.
 
@@ -45,39 +44,59 @@
 
 <div style="page-break-after: always;"></div>
 
-### 2.2.C. Matrice RACI
+### 2.2.C. Couverture *RACI* des activités de gouvernance
 
-| Activité                                                    | DGC | CDO | DPO | DO  | DS  | DC  | MO  | MRM | Legal | CEO |
-| ----------------------------------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | ----- | --- |
-| **Stratégie & gouvernance**                                 |     |     |     |     |     |     |     |     |       |     |
-| Définir et approuver la politique de gouvernance data & IA  | A   | R   | C   | I   | I   | I   | I   | I   | C     | I   |
-| Arbitrer les conflits inter-départementaux                  | R   | A   | I   | C   | I   | I   | I   | I   | I     | I   |
-| Piloter la montée en compétences data                       | A   | R   | I   | I   | C   | I   | I   | I   | I     | I   |
-| **Qualité & opérations data**                               |     |     |     |     |     |     |     |     |       |     |
-| Définir les standards de qualité des données                | A   | R   | I   | C   | C   | I   | I   | I   | I     | I   |
-| Exécuter le contrôle qualité quotidien d'un domaine         | I   | C   | I   | A   | R   | I   | I   | I   | I     | I   |
-| Contrôler la qualité d'un jeu de données d'entraînement     | I   | C   | I   | A   | R   | I   | C   | I   | I     | I   |
-| Arbitrer définitions, formats et standards d'un domaine     | I   | C   | I   | RA  | C   | I   | I   | I   | I     | I   |
-| Gérer l'accès, le chiffrement, la sauvegarde techniques     | I   | C   | I   | A   | I   | R   | I   | I   | I     | I   |
-| **Conformité & vie privée**                                 |     |     |     |     |     |     |     |     |       |     |
-| Assurer la conformité GDPR / CCPA / PCI-DSS                 | I   | C   | RA  | I   | I   | I   | I   | I   | C     | I   |
-| Traiter les demandes d'accès / suppression des utilisateurs | I   | I   | RA  | C   | I   | I   | I   | I   | C     | I   |
-| Notifier une violation de données (breach, 72h)             | I   | C   | R   | I   | I   | I   | I   | I   | C     | A   |
-| Garantir un usage éthique et non intrusif des données       | A   | C   | R   | C   | I   | I   | I   | C   | C     | I   |
-| **Gouvernance IA**                                          |     |     |     |     |     |     |     |     |       |     |
-| Documenter le lineage des données d'entraînement            | I   | I   | I   | I   | C   | I   | RA  | C   | I     | I   |
-| Détecter et évaluer les biais algorithmiques                | I   | C   | I   | I   | I   | I   | C   | RA  | I     | I   |
-| Conseiller sur les risques légaux (data & IA)               | I   | C   | A   | I   | I   | I   | I   | C   | R     | I   |
-| Classifier le niveau d'impact d'un modèle                   | I   | I   | –   | I   | I   | I   | R   | A   | –     | I   |
-| Approuver le déploiement d'une version d'un modèle à fort impact   | A   | C   | I   | I   | I   | I   | C   | R   | C     | I   |
-| Approuver le déploiement d'une version d'un modèle à impact modéré | I   | C   | I   | I   | I   | I   | R   | A   | I     | I   | 
-| Déployer une version d'un modèle à faible impact                   | -   | I   | -   | I   | I   | I   | RA  | I   | -     | -   |
-| Contrôler les modèles à faible impact par échantillonnage   | I   | I   | –   | I   | I   | I   | I   | RA  | -     | -   |
-| Reclassifier le niveau d'impact d'un modèle                 | I   | I   | –   | I   | I   | I   | C   | RA  | –     | I   |
+> *Légende : *
+> - *R = Responsible (exécute),*
+> - *A = Accountable (rend compte, un seul par ligne),*
+> - *C = Consulted (consulté),*
+> - *I = Informed (informé).*
 
-> *Légende :  R = Responsible (exécute), A = Accountable (rend compte, un seul par ligne), C = Consulted (consulté), I = Informed (informé).*
+###### Stratégie & gouvernance
 
-###### Lecture de la matrice
+| Activité                                                           | DGC | CDO | DPO | DO  | DS  | DC  | MO  | MRM | Legal | CEO |
+| ------------------------------------------------------------------ | --- | --- | --- | --- | --- | --- | --- | --- | ----- | --- | 
+| Définir et approuver la politique de gouvernance data&nbsp;&amp;&nbsp;IA | A   | R   | C   | I   | I   | I   | I   | I   | C     | I   |
+| Arbitrer les conflits inter-départementaux                         | R   | A   | I   | C   | I   | I   | I   | I   | I     | I   | 
+| Piloter la montée en compétences data                              | A   | R   | I   | I   | C   | I   | I   | I   | I     | I   | 
+
+###### Qualité & opérations data
+
+| Activité                                                           | DGC | CDO | DPO | DO  | DS  | DC  | MO  | MRM | Legal | CEO | 
+| ------------------------------------------------------------------ | --- | --- | --- | --- | --- | --- | --- | --- | ----- | --- |
+| Définir les standards de qualité des données                       | A   | R   | I   | C   | C   | I   | I   | I   | I     | I   | 
+| Exécuter le contrôle qualité quotidien d'un domaine                | I   | C   | I   | A   | R   | I   | I   | I   | I     | I   |   
+| Contrôler la qualité d'un jeu de données d'entraînement            | I   | C   | I   | A   | R   | I   | C   | I   | I     | I   | 
+| Arbitrer définitions, formats et standards d'un domaine            | I   | C   | I   | RA  | C   | I   | I   | I   | I     | I   |
+| Gérer l'accès, le chiffrement, la sauvegarde techniques            | I   | C   | I   | A   | I   | R   | I   | I   | I     | I   |
+
+###### Conformité & vie privée
+
+| Activité                                                      | DGC | CDO | DPO | DO  | DS  | DC  | MO  | MRM | Legal | CEO | 
+| ------------------------------------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | ----- | --- | 
+| Assurer la conformité GDPR/CCPA/PCI-DSS                       | I   | C   | RA  | I   | I   | I   | I   | I   | C     | I   |
+| Traiter les demandes d'accès/suppression des utilisateurs     | I   | I   | RA  | C   | I   | I   | I   | I   | C     | I   |
+| Notifier une violation de données (breach,&nbsp;72h)          | I   | C   | R   | I   | I   | I   | I   | I   | C     | A   | 
+| Garantir un usage éthique et non intrusif des données         | A   | C   | R   | C   | I   | I   | I   | C   | C     | I   |
+
+###### Gouvernance IA
+
+| Activité                                                           | DGC | CDO | DPO | DO  | DS  | DC  | MO  | MRM | Legal | CEO |
+| ------------------------------------------------------------------ | --- | --- | --- | --- | --- | --- | --- | --- | ----- | --- | 
+| Documenter le lineage des données d'entraînement                   | I   | I   | I   | I   | C   | I   | RA  | C   | I     | I   |
+| Détecter et évaluer les biais algorithmiques                       | I   | C   | I   | I   | I   | I   | C   | RA  | I     | I   |
+| Conseiller sur les risques légaux (data&nbsp;&amp;&nbsp;IA)        | I   | C   | A   | I   | I   | I   | I   | C   | R     | I   |
+| **Déploiement des modèles**                         |     |     |     |     |     |     |     |     |       |     |
+| Classifier le niveau d'impact d'un modèle                           | I   | I   | –   | I   | I   | I   | R   | A   | –     | I   |
+| Approuver le déploiement d'une version d'un modèle à fort impact    | A   | C   | I   | I   | I   | I   | C   | R   | C     | I   |    
+| Approuver le déploiement d'une version d'un modèle à impact modéré  | I   | C   | I   | I   | I   | I   | R   | A   | I     | I   |     
+| Déployer une version d'un modèle à faible impact                    | -   | I   | -   | I   | I   | I   | RA  | I   | -     | -   |     
+| Contrôler les modèles à faible impact par échantillonnage           | I   | I   | –   | I   | I   | I   | I   | RA  | -     | -   |
+| Reclassifier le niveau d'impact d'un modèle                         | I   | I   | –   | I   | I   | I   | C   | RA  | –     | I   | 
+
+<div style="page-break-after: always;"></div>
+
+###### Lecture des matrices
 
 - *DGC* n'est jamais *Responsible* d'une exécution opérationnelle. Il n'apparaît qu'en *Accountable* ou *Consulted* (rôle d'arbitrage transversal n'intervenant pas en production). 
 
@@ -87,17 +106,30 @@
 
 - Les responsabilités sur les jeux de données d'entraînement sont répartis de manière orthogonale entre *Data Steward* et *Model Owner* : *DS* reste *Responsible* de la qualité du jeu *en tant qu'actif de données* (exactitude, cohérence, fraîcheur), tandis que *MO* est *Consulted*, car il répond de l'*adéquation* de ce jeu à son modèle (représentativité, lineage, validation des ré-entraînements). 
 
-- \[TODO : circuits d'approbation des modèles à impact fort/modéré/faible : voir avec \[D3\]\]
-
-<div style="page-break-after: always;"></div>
+- **Déploiement des modèles**
+	- ***Classification/approbation/reclassification***
+		- La *classification* d'un modèle en fonction de son niveau d'impact porte sur le modèle en tant qu'entité conceptuelle et n'a lieu qu'une seule fois, lors de son enregistrement dans le registre des modèles.
+		- L'*approbation de déploiement* porte sur une version particulière du modèle, elle se répète à chaque mise en production, et hérite du niveau d'impact du modèle, fixé lors de la classification. La question de la classification n'est jamais réouverte à ce niveau.
+		- La *reclassification* d'un modèle est un événement rare, déclenché soit par une modification substantielle du modèle (changement de finalité, extension de la portée d'usage), soit par une détection lors de l'audit par échantillonnage.
+	- ***Impacts fort/modéré/faible***
+		- Le concept *d'impact d'un modèle* et son échantillonnage en niveaux fort/modéré/faible sont introduits et définis dans le plan d'implémentation \[D3\].
+		- Lors de l'approbation du déploiement d'un modèle *à fort impact*, *MO* est *Consulted* et c'est *MRM* qui est *Responsible*, endossant ainsi une fonction de contrôle indépendant forte. Le nombre de parties prenantes impliquées dans l'approbation de déploiement décroît mécaniquement avec le niveau d'impact.
 
 ---
-## Références
-### Annexes
+
+
+### Références
+
+#### Annexes
+
 - \[D22-Annexes\] [*Organizational Chart's Annexes*](spotify-step-2-2-organizational-chart--annexes.pdf)
-### Livrables
+
+#### Livrables
+
 - \[D1\] [*Data Maturity Assessment Report*](spotify-step-1-maturity-report.pdf)
 - \[D3\] [*Implementation Plan*](spotify-step-3-implementation-plan.pdf)
-### Ressources
+
+#### Ressources
+
 - \[R2\] [Spotify Business Case](1-spotify-business-case.pdf)
 - \[R6\] [Data Governance Roles Template](5-data-governance-roles-template.pdf)

@@ -3,7 +3,7 @@
 
 # 2.2. *Organizational Roles & Responsibilities* Chart
 
-> *Nicolas Pichon - AIA RNCP 38777 / BC01  / Step 2.2 / v13 - 2026/10/15.*
+> *Nicolas Pichon ~ AIA RNCP 38777 / BC01  / Step 2-2 / v13 ~ 2026/10/15.*
 
 ---
 

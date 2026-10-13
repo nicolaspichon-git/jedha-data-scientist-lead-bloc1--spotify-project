@@ -3,7 +3,7 @@
 
 # 2.1. *Data & AI Governance Policy* Document
 
-> *Nicolas Pichon - AIA RNCP 38777 / BC01 / Step 2.1 / v14 - 2026/10/15.* 
+> *Nicolas Pichon ~ AIA RNCP 38777 / BC01 / Step 2-1 / v14 ~ 2026/10/15.* 
 
 ---
 
@@ -40,7 +40,7 @@ Les principes énumérés ci-dessous sont issus du référentiel \[R4\] et const
 
 **P7 - Droits des utilisateurs.** Les utilisateurs disposent de moyens effectifs pour accéder à, modifier, supprimer leurs données ou s'opposer à leur traitement, conformément aux droits GDPR et CCPA.
 
-**P8 - Éthique et gouvernance de l'IA.** L'usage de l'IA et de l'apprentissage automatique fait l'objet d'une gouvernance dédiée : traçabilité des données d'entraînement, détection des biais algorithmiques, explicabilité des systèmes de décision automatisée. Ce principe est développé en section 4.
+**P8 - Éthique et gouvernance de l'IA.** L'usage des modèles d'IA fait l'objet d'une gouvernance dédiée : traçabilité des données d'entraînement, détection des biais algorithmiques, explicabilité des systèmes de décision automatisée.
 
 **P9 - Amélioration continue.** Le cadre de gouvernance est révisé périodiquement pour tenir compte de l'évolution de la réglementation, des technologies, et des besoins de l'entreprise, avec des cycles de mesure de maturité alignés sur la méthodologie du *DMAT* \[R1\].
 
@@ -74,47 +74,17 @@ Ce socle est complété par un processus de *cartographie réglementaire* march�
 
 ## 2.1.5. Gouvernance des données et des modèles d'IA
 
-*Spotify* dispose de capacités analytiques avancées en production (moteur de recommandation, personnalisation temps réel), mais la gouvernance de ces systèmes reste à construire \[R2\]. Cette politique introduit les exigences spécifiques suivantes :
+*Spotify* dispose de capacités analytiques avancées en production (moteur de recommandation, personnalisation temps réel), mais la gouvernance de ces systèmes reste à construire \[R2\]. La politique de gouvernance de ce document introduit les exigences spécifiques suivantes (traçabilité, détection, approbation, explicabilité ) :
 
-###### 2.1.5.1. Traçabilité des données d'entraînement
-Chaque jeu de données utilisé pour entraîner un modèle de production doit être *documenté* (source, période, transformations appliquées, lineage) et *versionné*.
-
-###### 2.1.5.2. Détection et réduction des biais
-Les modèles qui impactent fortement l'utilisateur font l'objet d'une *évaluation périodique* des biais algorithmiques et de leurs effets sur la représentativité des contenus proposés.
-
-###### 2.1.5.3. Responsabilité et approbation des modèles
-Chaque modèle en production est mis sous la responsabilité d'un *Model Owner* bien identifié. 
-
-Le circuit de validation de son déploiement ou de son actualisation est proportionné au *niveau d'impact* du modèle sur l'utilisateur. Le *niveau d'impact* d'un modèle est évalué en fonction des critères suivants :
-- Sa *portée* : la proportion des utilisateurs actifs exposés à la décision du modèle  ;
-- Sa *réversibilité* : la possibilité de corriger une décision erronée dans un délai court ;
-- Son *exposition réglementaire* : le modèle relève-t-il d'un traitement de données personnelles sensibles ou d'une décision individuelle automatisée au sens de l'article 22 du GDPR?
-- Sa *criticité fonctionnelle* : le modèle implémente-t-il une fonctionnalité principale du produit (recommandation, personnalisation) ou une fonction auxiliaire?
-
-Trois niveaux d'impact sont définis en fonction de ces critères :
-
-| Niveau     | Critères | 
-| ---------- | -------- |
-| **fort**   | majorité des utilisateurs actifs concernés ; décision peu réversible ; exposition art. 22 GDPR ; fonctionnalité principale |
-| **modéré** | utilisateurs ciblés (cohorte, marché, A/B test) ; décision réversible sous délai court |
-| **faible** | fonction auxiliaire, sans exposition directe à l'utilisateur final |
- 
-<div style="page-break-after: always;"></div>
-
-Un circuit de validation spécifique est associé à chaque niveau d'impact :
- 
-| Niveau     | Circuit de validation |
-| ---------- | --------------------- |
-| **fort**   | *MO* (C) → *MRM* (R) → *DGC* (A) \[D22\] |
-| **modéré** | *MO* (R) → *MRM* (A) - sans escalade systématique au *DGC* |
-| **faible** | *MO* (RA) = auto-certification sur la base d'une checklist (traçabilité, dépistage de biais automatisé) | 
-|            | *MRM* = contrôle *a posteriori* / échantillonnage |
-> *Légende : R = Responsible, A = Accountable, C = Consulted*.
-
-Cette différenciation évite qu'un circuit conçu pour les modèles à fort impact ne devienne, par défaut, un frein disproportionné au déploiement des modèles à impact modéré ou faible.
-
-###### 2.1.5.4. Explicabilité
-Les décisions automatisées ayant un impact significatif sur l'expérience utilisateur doivent pouvoir être expliquées de manière intelligible, en cohérence avec les exigences émergentes de gouvernance de l'IA.
+1. **Traçabilité des données d'entraînement**
+	- Chaque jeu de données utilisé pour entraîner un modèle de production doit être *documenté* (source, période, transformations appliquées, lineage) et *versionné*.
+2. **Détection et réduction des biais**
+	- Les modèles qui impactent fortement l'utilisateur font l'objet d'une *évaluation périodique* des biais algorithmiques et de leurs effets sur la représentativité des contenus proposés.
+3. **Responsabilité et approbation des modèles**
+	- Chaque modèle en production est sous la responsabilité d'un *Model Owner* bien identifié. 
+	- Le circuit d'approbation de déploiement d'un modèle est proportionné au *niveau d'impact* du modèle sur l'utilisateur (cf. définitions et circuits de validation dans \[D21-Annexes, 2.1.A\]).  
+4. **Explicabilité**
+	- Les décisions automatisées ayant un impact significatif sur l'expérience utilisateur doivent pouvoir être expliquées de manière intelligible, en cohérence avec les exigences émergentes de gouvernance de l'IA.
 
 ## 2.1.6. Rôles et responsabilités
 

@@ -3,11 +3,11 @@
 ===
 
 # 1. *Data & AI Maturity Assessment* Report
+## Annexes
 
-> *Nicolas Pichon - AIA RNCP 38777 / BC01 / Step 1 / v22 - 2026/10/15.* 
+> *Nicolas Pichon ~ AIA RNCP 38777 / BC01 / Step 1 / Annexes / v22 ~ 2026/10/15.* 
 
 ---
-## Annexes
 
 ### 1.A. Dimensions du *modèle DMA* vs. du *DMAT australien*  
 
@@ -34,7 +34,7 @@
 | **Metadata**                | Q42, Q43, Q44 |
 
 ---
-## Références
-### Ressources
+### Références
+#### Ressources
 - \[R1\] [*Australian Government Data Maturity Assessment Tool* (2026)](0-AustralianDataMaturityAssessmentTool.pdf)
 - \[R3\] [Data Maturity Assessment Template](2-data-maturity-assessment-template.pdf)

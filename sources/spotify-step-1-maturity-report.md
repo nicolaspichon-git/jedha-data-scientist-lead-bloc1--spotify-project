@@ -14,10 +14,10 @@ tags:
 
 # 1. *Data & AI Maturity Assessment* Report
 
-> *Nicolas Pichon - AIA RNCP 38777 / BC01 / Step 1 / v22 - 2026/10/15.*   
+> *Nicolas Pichon ~ AIA RNCP 38777 / BC01 / Step 1 / v22 ~ 2026/10/15.*   
 
 ---
-## 1.1. Évaluation de la maturité *Data/AI* chez Spotify
+## 1.1. Évaluation de la maturité *Data/AI* chez *Spotify*
 
 Les tableaux ci-dessous évaluent la maturité de la gouvernance des données et des modèles d'IA chez Spotify, d'après les informations fournies par le *business case* \[R2\] et selon la méthodologie d'évaluation encadrée par le *DMAT Australien* \[R1\]. 
 

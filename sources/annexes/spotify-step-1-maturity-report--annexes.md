@@ -17,9 +17,9 @@ tags:
 > *Nicolas Pichon --- AIA RNCP 38777 / BC01 / Step 1 / Annexes / v24 --- 2026/10/15.* 
 ---
 
-### 1.A. Dimensions du *modÃ¨le DMA* vs. du *DMAT australien*  
+### 1.A. Dimensions du *modèle DMA* vs. du *DMAT australien*  
 
-- Mise en correspondance des questions posÃ©es par la mÃ©thodologie du *DMAT australien* \[R1\] avec les dimensions identifiÃ©es dans le *modÃ¨le DMA* \[R3\] :
+- Mise en correspondance des questions posées par la méthodologie du *DMAT australien* \[R1\] avec les dimensions identifiées dans le *modèle DMA* \[R3\] :
 
 | Dimension \[R3\]           | Questions \[R1\]   |
 | -------------------------- | ------------------ |
@@ -43,7 +43,7 @@ tags:
 
 ---
 
-### RÃ©fÃ©rences
+### Références
 
 - \[R1\] [*Australian Government Data Maturity Assessment Tool* (2026)](0-AustralianDataMaturityAssessmentTool.pdf)
 - \[R3\] [Data Maturity Assessment Template](2-data-maturity-assessment-template.pdf)

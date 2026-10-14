@@ -54,7 +54,7 @@
 - \[D4\] [*Presentation*](spotify-step-4-presentation.pptx)
 - \[D4-Annexes\] [*Presentation's Annexes*](spotify-step-4-presentation--annexes.pptx)
 #### Ressources
-- \[R0\] [Spotify Data & IA Governance Project](spotify-project--data-and-ai-governance.md)
+- \[R0\] [Spotify Data & IA Governance Project](spotify-project--data-and-ai-governance.pdf)
 - \[R1\] [Australian Government Data Maturity Assessment Tool (2026)](0-AustralianDataMaturityAssessmentTool.pdf)
 - \[R2\] [Spotify Business Case](1-spotify-business-case.pdf)
 - \[R3\] [Data Maturity Assessment Template](2-data-maturity-assessment-template.pdf)

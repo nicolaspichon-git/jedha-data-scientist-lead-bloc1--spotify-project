@@ -44,15 +44,12 @@ Les *Model Owners* sont intégrés dans le département *Product Development*, l
 
 ## Références
 
-### Annexes
-- \[D22-Annexes\] [*Organizational Chart's Annexes*](spotify-step-2-2-organizational-chart--annexes.pdf)
-
 ### Livrables
 - \[D1\] [*Data Maturity Assessment Report*](spotify-step-1-maturity-report.pdf)
-
+### Annexes
+- \[D22-Annexes\] [*Organizational Chart's Annexes*](spotify-step-2-2-organizational-chart--annexes.pdf)
 ### Ressources
 - \[R2\] [Spotify Business Case](1-spotify-business-case.pdf)
 - \[R6\] [Data Governance Roles Template](5-data-governance-roles-template.pdf)
-
 ### Documents Applicables
 - \[A1\] **\[GDPR\]**  _General Data Protection Regulation_ - Règlement (UE) 2016/679, 27 avril 2016. JO L 119, 4.5.2016.

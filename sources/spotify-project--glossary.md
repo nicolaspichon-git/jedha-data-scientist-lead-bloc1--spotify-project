@@ -37,6 +37,7 @@ tags:
 	- ***Article 22*** : donne le droit aux utilisateurs de ne pas faire l’objet d’une décision fondée exclusivement sur un traitement automatisé.
 	- ***Article 30*** : impose au responsable du traitement, et le cas échéant au sous-traitant, de tenir un registre des activités de traitement qu’ils réalisent. 
 	- ***Article 33*** : en cas de violation de données personnelles, impose au responsable du traitement de la notifier à l’autorité de contrôle compétente, dans les meilleurs délais et, si possible, au plus tard 72 heures après en avoir pris connaissance. 
+	- ***Article 34*** : impose au responsable du traitement d’informer directement les personnes concernées lorsqu’une violation de leurs données personnelles est susceptible de présenter un risque élevé pour leurs droits et libertés.
 	- ***Article 35*** : impose au responsable du traitement une analyse d’impact relative à la protection des données (AIPD) avant de lancer un traitement susceptible d’engendrer un risque élevé pour les droits et libertés des personnes.
 	- ***Article 38*** : encadre la fonction du délégué à la protection des données (DPO) : il garantit son intégration dans l’organisation, ses moyens d’action, son indépendance et l’absence de conflit d’intérêts.
 
@@ -49,6 +50,7 @@ tags:
 - **DSAR** : Data Subject Access Request (RGPD/CCPA).
 - **GRC** : Governance, Risk, Compliance.
 - **SIEM** : Security Information and Event Management.
+- **IAM** : Identity and Access Management.
 - **RBAC** : Role-Based Access Control (contrôle d'accès basé sur les rôles).
 - **ABAC** : Attribute-Based Access Control (contrôle d'accès basé sur les attributs).
 - **SSO** : Single Sign-On (authentification unique).

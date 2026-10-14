@@ -110,10 +110,12 @@ Le développement de *Spotify* autour d'une culture *data-driven* implique une *
 
 ### Annexes
 - \[D1-Annexes\] [*Data Maturity Assessment Report's Annexes*](spotify-step-1-maturity-report--annexes.pdf)
+- 
 ### Ressources
 - \[R1\] [*Australian Government Data Maturity Assessment Tool* (2026)](0-AustralianDataMaturityAssessmentTool.pdf)
 - \[R2\] [Spotify Business Case](1-spotify-business-case.pdf)
 - \[R3\] [Data Maturity Assessment Template](2-data-maturity-assessment-template.pdf)
+- 
 ### Documents applicables
 - \[A1\] **\[GDPR\]**  _General Data Protection Regulation_ - Règlement (UE) 2016/679, 27 avril 2016. JO L 119, 4.5.2016.
 - \[A2\] **\[CCPA\]**  _California Consumer Privacy Act of 2018_, Cal. Civ. Code § 1798.100, amendé / CPRA (Prop. 24, 2020).

@@ -1,11 +1,24 @@
+---
+version: v14
+tags:
+  - _RNCP38777
+  - _2026
+  - aia
+  - aia/bc01
+  - spotify-project
+  - spotify-project/step-2-2/annexes
+  - spotify-project/step-2-2/annexes/a
+  - spotify-project/step-2-2/annexes/b
+  - spotify-project/step-2-2/annexes/c
+---
 *SPOTIFY'S DATA & AI GOVERNANCE* PROJECT
 ===
 
-# 2.2. *Organizational Roles & Responsibilities* Chart
+# 2.2. *Roles & Responsibilities* Organizational Chart
+
 ## Annexes
 
-> *Nicolas Pichon ~ AIA RNCP 38777 / BC01  / Step 2-2 / Annexes / v13 ~ 2026/10/15.*
-
+> *Nicolas Pichon ~ AIA RNCP 38777 / BC01  / Step 2-2 / Annexes / v14 ~ 2026/10/15.*
 ---
 
 ### 2.2.A. Détails des rôles et responsabilités
@@ -13,18 +26,18 @@
 | Rôle                          |     | Rattachement                                                                                                                          | Responsabilités                                                                                                                            |
 | ----------------------------- | --- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Data Governance Committee** | DGC | Rapporte au CDO                                                                                                                       | Piloter et arbitrer le cadre de gouvernance à l'échelle de l'entreprise \[R6\]                                                             |
-| **Chief Data Officer**        | CDO | Rapporte au CEO                                                                                                                       | Définir et faire appliquer la stratégie data \[R6\] \[R2\]                                                                                 |
-| **Data Protection Officer**   | DPO | Rapporte au CEO (GDPR, art. 38§3)                                                                                                     | Garantir la conformité GDPR/CCPA/PCI-DSS \[R6\] \[R2\]                                                                                     |
+| **Chief Data Officer**        | CDO | Rapporte au CEO                                                                                                                       | Définir et faire appliquer la stratégie *data* \[R6\] \[R2\]                                                                                 |
+| **Data Protection Officer**   | DPO | Rapporte au CEO (RGPD, art. 38)                                                                                                       | Garantir la conformité *RGPD*/*CCPA*/*PCI-DSS* \[R6\] \[R2\]                                                                                     |
 | **Data Owner**                | DO  | Incarné par le responsable métier de chaque département                                                                               | Détenir l'autorité de décision sur les actifs de données de son département                                                                |
 | **Data Steward**              | DS  | Organisationnellement au département, fonctionnellement au *CDO*                                                                      | Garantir la qualité et la fiabilité des données d'un domaine donné \[R6\]                                                                  |
-| **Data Custodian**            | DC  | Organisationnellement au *HoE*, transversalement l'ensemble des domaines (exécute les décisions d'accès et de sécurité de chaque *DO* | Assurer la gestion technique et sécurisée du stockage des données pour l'ensemble des domaines                                             |
+| **Data Custodian**            | DC  | Organisationnellement au *HoE*, transversalement l'ensemble des domaines (exécute les décisions d'accès et de sécurité de chaque *DO*) | Assurer la gestion technique et sécurisée du stockage des données pour l'ensemble des domaines                                             |
 | **Model Owner**               | MO  | Organisationnellement au *PM*, fonctionnellement au *CDO* (pour la gouvernance IA)                                                    | Être responsable d'un modèle d'IA/ML en production                                                                                         |
 | **Model Risk Manager**        | MRM | fonctionnellement principalement au *CDO* ; escalade directe au *DGC*                                                                 | Contrôler les risques réglementaires et éthiques des modèles (biais, explicabilité) - fonction de contrôle indépendante des *Model Owners* |
 | **Legal Team**                | -   | Rapporte au CEO                                                                                                                       | Sécuriser juridiquement les activités liées aux données \[R2\] ; intervient en appui du DPO sur la conformité                              |
 | **Head of Engineering**       | HoE | Incarne le *DO* du département *Engineering*                                                                                          | Garantir une infrastructure data conforme à la gouvernance \[R2\]                                                                          |
 | **Marketing Director**        | MD  | Incarne le *DO* du département *Marketing*                                                                                            | Garantir un usage conforme des données dans les activités marketing \[R2\]                                                                 |
 | **Product Managers**          | PM  | Incarnent les *DOs* du département *Product Development*                                                                              | Intégrer la gouvernance dans le développement produit \[R2\]                                                                               |
-| **Content Managers**          | -   | Incarnent les *DOs* du département *Content Curation*                                                                                 | Intégrer la gouvernance dans la gestion des contenus \[R2\]                                                                                |
+| **Content Managers**          | -   | Incarnent les *DOs* du département *Content Curation*                                                                                 | Intégrer la gouvernance dans la gestion des contenus |
 
 <div style="page-break-after: always;"></div>
 
@@ -34,7 +47,7 @@
 
 - **E2 (qualité des données)** : partiellement résolu par une chaîne de responsabilités explicite : *CDO* définit les standards de qualité, les *Data Stewards* exécutent le contrôle quotidien de la qualité par domaine, les *Data Owners* en répondent dans leur périmètre. La structure ne précise ni les règles ni l'outillage de suivi de qualité (profiling, cleansing, monitoring), qui relèvent de la mise en œuvre.
 
-- **E3 (conformité multi-juridictionnelle)** : couvert par le tandem *DPO* / *Legal Team* qui réunit l'autorité de conformité et l'expertise juridique sous l'autorité exécutive. Leur proximité organisationnelle facilite la déclinaison locale des exigences GDPR/CCPA/PCI-DSS.
+- **E3 (conformité multi-juridictionnelle)** : couvert par le tandem *DPO* / *Legal Team* qui réunit l'autorité de conformité et l'expertise juridique sous l'autorité exécutive. Leur proximité organisationnelle facilite la déclinaison locale des exigences RGPD/CCPA/PCI-DSS.
 
 - **E4 (vie privée & usage éthique)** : couvert par le tandem *DPO* / *DGC* et un *Model Risk Manager* en appui sur le versant biais et inférence de préférences non déclarées.
 
@@ -74,7 +87,7 @@
 
 | Activité                                                      | DGC | CDO | DPO | DO  | DS  | DC  | MO  | MRM | Legal | CEO | 
 | ------------------------------------------------------------- | --- | --- | --- | --- | --- | --- | --- | --- | ----- | --- | 
-| Assurer la conformité GDPR/CCPA/PCI-DSS                       | I   | C   | RA  | I   | I   | I   | I   | I   | C     | I   |
+| Assurer la conformité RGPD/CCPA/PCI-DSS                       | I   | C   | RA  | I   | I   | I   | I   | I   | C     | I   |
 | Traiter les demandes d'accès/suppression des utilisateurs     | I   | I   | RA  | C   | I   | I   | I   | I   | C     | I   |
 | Notifier une violation de données (breach,&nbsp;72h)          | I   | C   | R   | I   | I   | I   | I   | I   | C     | A   | 
 | Garantir un usage éthique et non intrusif des données         | A   | C   | R   | C   | I   | I   | I   | C   | C     | I   |
@@ -100,36 +113,27 @@
 
 - *DGC* n'est jamais *Responsible* d'une exécution opérationnelle. Il n'apparaît qu'en *Accountable* ou *Consulted* (rôle d'arbitrage transversal n'intervenant pas en production). 
 
-- *DPO* concentre ses *Accountable* sur les trois actions de conformité (GDPR/CCPA, droits utilisateurs, notification de violation), confirmant sa légitimité malgré son rattachement au *CEO* plutôt qu'au *CDO*.
+- *DPO* concentre ses *Accountable* sur les trois actions de conformité (RGPD/CCPA, droits utilisateurs, notification de violation), confirmant sa légitimité malgré son rattachement au *CEO* plutôt qu'au *CDO*.
 
 - *DGC* est *Accountable* sur l'action "Approuver le déploiement d'un modèle \[...\]", alors que *CDO*, qui *préside* le DGC, n'apparaît qu'en *Consulted*. C'est la séparation recherchée pour l'indépendance du *Model Risk Manager* : elle évite que *CDO* soit à la fois juge et partie sur ses propres arbitrages IA.
 
 - Les responsabilités sur les jeux de données d'entraînement sont répartis de manière orthogonale entre *Data Steward* et *Model Owner* : *DS* reste *Responsible* de la qualité du jeu *en tant qu'actif de données* (exactitude, cohérence, fraîcheur), tandis que *MO* est *Consulted*, car il répond de l'*adéquation* de ce jeu à son modèle (représentativité, lineage, validation des ré-entraînements). 
 
 - **Déploiement des modèles**
-	- ***Classification/approbation/reclassification***
-		- La *classification* d'un modèle en fonction de son niveau d'impact porte sur le modèle en tant qu'entité conceptuelle et n'a lieu qu'une seule fois, lors de son enregistrement dans le registre des modèles.
-		- L'*approbation de déploiement* porte sur une version particulière du modèle, elle se répète à chaque mise en production, et hérite du niveau d'impact du modèle, fixé lors de la classification. La question de la classification n'est jamais réouverte à ce niveau.
-		- La *reclassification* d'un modèle est un événement rare, déclenché soit par une modification substantielle du modèle (changement de finalité, extension de la portée d'usage), soit par une détection lors de l'audit par échantillonnage.
-	- ***Impacts fort/modéré/faible***
-		- Le concept *d'impact d'un modèle* et son échantillonnage en niveaux fort/modéré/faible sont introduits et définis dans le plan d'implémentation \[D3\].
-		- Lors de l'approbation du déploiement d'un modèle *à fort impact*, *MO* est *Consulted* et c'est *MRM* qui est *Responsible*, endossant ainsi une fonction de contrôle indépendant forte. Le nombre de parties prenantes impliquées dans l'approbation de déploiement décroît mécaniquement avec le niveau d'impact.
+	- La distinction entre *classification*, *approbation de déploiement* et *reclassification* d'un modèle, ainsi que la définition des niveaux d'impact fort/modéré/faible, sont détaillées dans \[D21-Annexes, §2.1.A\].
+	- Lors de l'approbation du déploiement d'un modèle *à fort impact*, *MO* est *Consulted* et c'est *MRM* qui est *Responsible*, endossant ainsi une fonction de contrôle indépendant forte. Le nombre de parties prenantes impliquées dans l'approbation de déploiement décroît mécaniquement avec le niveau d'impact.
 
 ---
 
-
 ### Références
 
-#### Annexes
-
-- \[D22-Annexes\] [*Organizational Chart's Annexes*](spotify-step-2-2-organizational-chart--annexes.pdf)
-
 #### Livrables
-
 - \[D1\] [*Data Maturity Assessment Report*](spotify-step-1-maturity-report.pdf)
-- \[D3\] [*Implementation Plan*](spotify-step-3-implementation-plan.pdf)
+- \[D22\] [*Organizational Chart*](spotify-step-2-2-organizational-chart.pdf)
+
+#### Annexes
+- \[D21-Annexes\] [*Data Governance Policy Document's Annexes*](spotify-step-2-1-policy-document--annexes.pdf)
 
 #### Ressources
-
 - \[R2\] [Spotify Business Case](1-spotify-business-case.pdf)
 - \[R6\] [Data Governance Roles Template](5-data-governance-roles-template.pdf)

@@ -1,5 +1,5 @@
 ---
-version: v14
+version: v15
 tags:
   - _RNCP38777
   - _2026
@@ -14,7 +14,7 @@ tags:
 ===
 # 2.1. *Data & AI Governance Policy* Document
 
-> *Nicolas Pichon --- AIA RNCP 38777 / BC01 / Step 2-1 / v14 --- 2026/10/15.* 
+> *Nicolas Pichon --- AIA RNCP 38777 / BC01 / Step 2-1 / v15 --- 2026/10/15.* 
 ---
 
 ## 2.1.1. Objectifs
@@ -127,12 +127,12 @@ L'efficacité de cette politique est mesurée par des revues de maturité pério
 
 ## Références
 
-### Annexes
-- \[D21-Annexes\] [*Data Governance Policy Document's Annexes*](spotify-step-2-1-policy-document--annexes.pdf)
-
 ### Livrables
 - \[D1\] [*Data Maturity Assessment Report*](spotify-step-1-maturity-report.pdf)
 - \[D22\] [*Organizational Chart*](spotify-step-2-2-organizational-chart.pdf)
+
+### Annexes
+- \[D21-Annexes\] [*Data Governance Policy Document's Annexes*](spotify-step-2-1-policy-document--annexes.pdf)
 
 ### Ressources
 - \[R1\] [Australian Government Data Maturity Assessment Tool (2026)](0-AustralianDataMaturityAssessmentTool.pdf)

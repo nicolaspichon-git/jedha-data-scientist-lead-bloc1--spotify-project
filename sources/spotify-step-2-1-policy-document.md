@@ -34,7 +34,7 @@ La politique de gouvernance s'appuie directement sur le diagnostic de maturité 
 
 ## 2.1.3. Principes
 
-Les principes énumérés ci-dessous sont adaptés du référentiel \[R4\] et constituent le socle de la politique de gouvernance.
+Les principes énumérés ci-dessous sont issus du référentiel \[R4\] et repris quasiment sans  changements. Ils constituent le socle de la politique de gouvernance.
 
 **P1 - Responsabilité.** Chaque actif de données et chaque modèle en production dispose d'un responsable identifié (*Data Owner*, *Data Steward*, *Model Owner*), selon la structure organisationnelle définie dans \[D22\].
 
@@ -95,6 +95,7 @@ Ce socle est complété par un processus de *cartographie réglementaire* march�
 	- Celui-ci collabore avec le *Model Risk Manager* et, éventuellement, avec le *Data Governance Committee* pour approuver le déploiement en production d'une version donnée d'un modèle. Le circuit d'approbation du déploiement dépend du *niveau d'impact* du modèle sur les utilisateurs.  
 4. **Explicabilité**
 	- Les décisions automatisées ayant un impact significatif sur l'expérience utilisateur doivent pouvoir être expliquées de manière intelligible, en cohérence avec les exigences émergentes de gouvernance de l'IA.
+
 ###### Niveaux d'impact
 
 La mesure de l'impact d'un modèle sur les utilisateurs dépend des critères suivants : 1) la _portée_ du modèle (nombre d'utilisateurs exposés au modèle), 2) sa _réversibilité_, 3) son _exposition réglementaire_ (en particulier, aux art. 9 et 22 du GDPR), 4) sa _priorité fonctionnelle_.

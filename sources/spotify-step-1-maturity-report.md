@@ -84,8 +84,8 @@ L'ampleur du chantier pour corriger ce dysfonctionnement est importante. Il impl
 ###### E2. Maîtriser la qualité des données
 \[R2\] identifie le contrôle de la qualité des données comme un enjeu majeur. Le document évoque des « données inexactes » et des « métadonnées obsolètes » qui dégradent les recommandations mais ne définit pas la qualité des données de manière opérationnelle. En amont des processus de nettoyage, de monitoring et de validation, recommandés à la fois par \[R1\] et par \[R2\], l'enjeu implique donc également un travail important de définition des règles de qualité des données.
 
-###### E3. Maîtriser la mise en conformité réglementaire dans un contexte multi-juridictionnel
-La mise en conformité réglementaire est identifiée comme un enjeu majeur dans \[R2\]. Les obligations à couvrir sont nombreuses : gestion du consentement explicite, traitement des demandes des personnes concernées, notification des violations sous 72 heures.
+###### E3. Maîtriser la conformité réglementaire en contexte multi-juridictionnel
+La conformité réglementaire est identifiée comme un enjeu majeur dans \[R2\]. Les obligations à couvrir sont nombreuses : gestion du consentement explicite, traitement des demandes des personnes concernées, notification des violations sous 72 heures.
 
 La difficulté spécifique de l'enjeu est sa déclinaison multi-juridictionnelle, la société opérant sous des régimes juridiques hétérogènes : GDPR (UE) \[A1\], CCPA (Californie)\[A2\], PDPA (Singapour)\[A3\], auxquels s'ajoutent les réglementations spécifiques concernant la gouvernance de l'IA \[R2\]. Il s'agit de satisfaire simultanément les exigences de chaque régime sans dégrader la cohérence d'ensemble.
 

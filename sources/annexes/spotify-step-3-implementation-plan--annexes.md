@@ -360,7 +360,7 @@ Les indicateurs du pilote sont adossés aux niveaux de maturité *DMAT* utilisé
 | ---------------  | ------------ | ------------ | ------------------------------ |
 | Data Governance  | 1 | 2, sur périmètre pilote uniquement | 3, à l'échelle de l'organisation |
 | Data Quality     | 1 | 2 | 3 |
-| Analytics & BI (volet *Gouvernance IA*) | 2 | 3, sur le sous-critère *gouvernance des modèles* \[R1, Q55-Q57\] | 3 |
+| Analytics & BI (volet *Gouvernance IA*) | 2 | 3, sur le sous-critère *gouvernance des modèles* \[R11, Q55-Q57\] | 3 |
 
 Un pilote de 21 semaines mené sur un seul périmètre ne doit pas viser le niveau 3 fixé comme objectif global, l'ambition du pilote étant simplement de démontrer la trajectoire.
 
@@ -374,7 +374,7 @@ Un pilote de 21 semaines mené sur un seul périmètre ne doit pas viser le nive
 
 > *Légende : PPM = Pilot Project Manager.*
 
-La validation du DGC sur le score final (Jalon 16) donne à la re-cotation une légitimité au-delà de la simple auto-évaluation - cohérent avec son rôle d'arbitrage transversal déjà établi dans la matrice RACI \[D22-Annexes, §2.2.C\], où il n'est jamais *Responsible* d'une exécution mais *Accountable* sur les décisions de portée générale. C'est ce score validé qui alimente la décision de généralisation (§3.G.1).
+La validation du DGC sur le score final (jalon 16) donne à la re-cotation une légitimité au-delà de la simple auto-évaluation - cohérent avec son rôle d'arbitrage transversal déjà établi dans la matrice RACI \[D22-Annexes, §2.2.C\], où il n'est jamais *Responsible* d'une exécution mais *Accountable* sur les décisions de portée générale. C'est ce score validé qui alimente la décision de généralisation (§3.G.1).
 
 **Nature de l'exercice.** La re-cotation reste un jugement qualitatif, de même nature que l'évaluation initiale \[D1\] : les niveaux du DMAT \[R1\] sont des descriptions textuelles, pas des seuils calculables automatiquement, et leur application exige une interprétation humaine. La validation DGC réduit le risque de biais d'auto-évaluation, mais ne rend pas le jugement objectif - deux personnes de bonne foi peuvent observer les mêmes faits différemment. Ce que le pilote améliore n'est donc pas la nature du jugement, mais la matière sur laquelle il s'exerce : au lieu d'interpréter un texte narratif écrit a posteriori (\[R2\]), il interprète des artefacts opérationnels produits en direct (logs Soda Core, horodatages de workflow Collibra, dossiers de classification, \[D21-Annexes, §2.1.A.4\]). Chaque score attribué doit être ancré à une preuve explicitement citée - l'artefact précis et sa date - plutôt qu'à une impression générale, pour rester vérifiable et contestable.
 
@@ -512,7 +512,7 @@ L'intervalle entre phases est également renforcé, porté à **2 mois** (contre
 | Phase 4 - *Content Curation* | 3 mois | - | M20 |
 | Consolidation vers niveau 3 (audits, mesure continue \[D21, §2.1.7\]) | - | - | M22-M24 |
 
-Le séquencement proposé consomme la totalité du budget de référence donné en \[R1, Q7\] (pilote 3-6 mois, déploiement complet +12-18 mois, soit 15-24 mois au total). C'est le surcoût cumulé, et incompressible, de la phase de sécurisation préliminaire et des marges renforcées inter-phases .
+Le séquencement proposé consomme la totalité du budget de référence donné en \[R11, Q7\] (pilote 3-6 mois, déploiement complet +12-18 mois, soit 15-24 mois au total). C'est le surcoût cumulé, et incompressible, de la phase de sécurisation préliminaire et des marges renforcées inter-phases .
 
 #### 3.G.3 Ajustements attendus au cadre de gouvernance
 

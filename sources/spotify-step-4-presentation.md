@@ -13,7 +13,7 @@ tags:
 *SPOTIFY'S DATA & AI GOVERNANCE* PROJECT
 ===
 
-# 4. Presentation To Stakeholders
+# 4. Presentation
 
 > *Nicolas Pichon ~ AIA RNCP 38777 / BC01 / Presentation / v4 ~ 2026/10/15.
 ---

@@ -1,6 +1,8 @@
 SPOTIFY'S DATA & AI GOVERNANCE PROJECT
 ===
 
+> [Source](https://app.jedha.co/course/project-prep-lds/project-overview-lds).
+
 360 min.
 
 In this project, you'll take on the role of an AI and Data Governance Lead for Spotify, the leading music streaming service. Your task is to design a practical governance framework that ensures data quality, security, compliance, and responsible AI use while optimizing data across Spotify's global operations. This is a hands-on project that you should complete within 6 hours.
@@ -9,12 +11,14 @@ In this project, you'll take on the role of an AI and Data Governance Lead for S
 
 ## 1.1. Objective
 As an *AI and Data Governance Lead* for *Spotify*, design and pilot practical governance framework, y, ensuring compliance with GDPR, CCPA, PCI-DSS, and AI governance expectations, while improving data quality, model-readiness, and operational efficiency.
+
 ## 1.2. Key Deliverables
 - Data & AI Governance Policy Document (Word/Google Doc)
 - Organizational Roles & Responsibilities Outline (PowerPoint/Google Slides)
 - Implementation Plan for Data & AI Governance (Word/Google Doc)
 - Final Presentation to Stakeholders (PowerPoint/Google Slides)
 - Supplemental Resources & Documents (Provided below
+- 
 # 2. Project Steps
 
 ## 2.1. Step 1 - Understanding Spotify’s Data Landscape
@@ -26,16 +30,16 @@ As an *AI and Data Governance Lead* for *Spotify*, design and pilot practical go
 - *Data Maturity Assessment*: use the provided *Data Maturity Assessment Template* to analyze where *Spotify* stands on the data maturity scale.
 - *Key Challenges Identification*: identify challenges like data silos, inconsistent data quality, unclear AI training-data lineage, and compliance risks, especially with global data handling.
 ### Deliverable
-A brief report (1-2 pages) detailing Spotify's current data maturity level and key data and AI governance challenges.
+- A brief report (1-2 pages) detailing Spotify's current data maturity level and key data and AI governance challenges.
 ### Resources Provided
 - Data Maturity Assessment Template (Word/Google Doc)
 - Spotify Case Study Background (PDF)
 
 ## 2.2. Step 2 - Designing Spotify's Data & AI Governance Framework
 ### Time
-2 hours.
+- 2 hours.
 ### Objective
-Create a robust Data & AI Governance policy tailored to Spotify's needs.
+- Create a robust Data & AI Governance policy tailored to Spotify's needs.
 ### Tasks
 - Develop Governance Principles: 
     - Use the Governance Principles Guide to outline key principles for data stewardship, quality, security, and approved AI use.
@@ -51,11 +55,11 @@ Create a robust Data & AI Governance policy tailored to Spotify's needs.
 - Compliance Checklist (Excel/Google Sheets)
 - Roles Template (PowerPoint/Google Slides)
 
-## 3.3. Step 3: Implementing the Data & AI Governance Framework
+## 2.3. Step 3: Implementing the Data & AI Governance Framework
 ### Time
-1.5 hours.
+- 1.5 hours.
 ### Objective
-Develop a step-by-step implementation plan.
+- Develop a step-by-step implementation plan.
 ### Tasks
 - Organizational Model: 
     - Choose a model (Centralized, Decentralized, CoE) using the Organizational Models Overview.
@@ -72,9 +76,9 @@ Develop a step-by-step implementation plan.
 
 ## 2.4. Step 4: Final Presentation to Spotify's Executive and AI Leadership Team
 ### Time
-1.5 hours.
+- 1.5 hours.
 ### Objective
-Present the *Data & AI Governance* framework and its implementation plan to stakeholders.
+- Present the *Data & AI Governance* framework and its implementation plan to stakeholders.
 ### Tasks
 - Prepare the Presentation: 
 	- Use the Presentation Template to create a concise, engaging presentation summarizing your framework and implementation plan.
@@ -87,11 +91,12 @@ Present the *Data & AI Governance* framework and its implementation plan to stak
 - Executive Q&A Guide (PDF)
 
 # 3. Project Timeline
+
 **6 Hours Total** :
-- **H1**: Data Maturity Assessment and Challenge Identification
-- **H2/3**: Design of the Data & AI Governance Framework
-- **H4/5**: Implementation Plan Development
-- **H6**: Final Presentation Preparation
+- **Hour 1**: Data Maturity Assessment and Challenge Identification
+- **Hours 2-3**: Design of the Data & AI Governance Framework
+- **Hours 4-5**: Implementation Plan Development
+- **Hours 6**: Final Presentation Preparation
 
 # 4. Supplemental Resources & Documents
 1. [Spotify Case Study Background](1-spotify-business-case.pdf)

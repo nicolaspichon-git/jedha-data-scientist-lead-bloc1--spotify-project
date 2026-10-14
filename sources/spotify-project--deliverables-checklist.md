@@ -66,3 +66,8 @@
 - \[R9\] [Pilot Implementation Template](8-pilot-implementation-template.pdf)
 - \[R10\] [Presentation Template](9-presentation-template.pptx)
 - \[R11\] [Executive Q&A Guide](10-executive-qa-guide.pdf)
+#### Documents Applicables
+- \[A1\] **\[GDPR\]**  _General Data Protection Regulation_ - Règlement (UE) 2016/679, 27 avril 2016. JO L 119, 4.5.2016.
+- \[A2\] **\[CCPA\]**  _California Consumer Privacy Act of 2018_, Cal. Civ. Code § 1798.100, amendé / CPRA (Prop. 24, 2020).
+- \[A3\] **\[PDPA\]** _Personal Data Protection Act 2012_ (No. 26 of 2012), Singapour, amendé en 2020.
+- \[A4\] **\[PCI-DSS\]** _Payment Card Industry Data Security Standard (PCI DSS)_, v4.0.1, PCI Security Standards Council, juin 2024.

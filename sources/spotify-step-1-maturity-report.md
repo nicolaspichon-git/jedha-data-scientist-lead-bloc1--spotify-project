@@ -1,5 +1,5 @@
 ---
-version: v22
+version: v24
 tags:
   - _RNCP38777
   - _2026
@@ -12,35 +12,37 @@ tags:
 ---
 *SPOTIFY'S DATA & AI GOVERNANCE* PROJECT
 ===
+
 # 1. *Data & AI Maturity Assessment* Report
-> *Nicolas Pichon --- AIA RNCP 38777 / BC01 / Step 1 / v22 --- 2026/10/15.*   
+
+> *Nicolas Pichon --- AIA RNCP 38777 / BC01 / Step 1 / v24 --- 2026/10/15.*   
 ---
 
 ## 1.1. Évaluation de la maturité *Data/AI* chez *Spotify*
 
-Les tableaux ci-dessous évaluent la maturité de la gouvernance des données et des modèles d'IA chez Spotify, d'après les informations fournies par le *business case* \[R2\] et selon la méthodologie d'évaluation encadrée par le *DMAT Australien* \[R1\]. 
+Les tableaux ci-dessous évaluent la maturité de la gouvernance des données chez *Spotify*, d'après les informations fournies par le *business case* \[R2\] et selon la méthodologie d'évaluation encadrée par le *DMAT Australien* \[R1\]. 
 
-> Les domaines *DO*, *MRD*, *MDT* absorbent les questions de \[R1\] sans correspondance dans \[R3\]. 
+> Les domaines *Data Operations*, *Master Reference Data*, *Metadata* absorbent les questions de \[R1\] sans correspondance dans \[R3\]. 
 
-En bref : Spotify a une capacité analytique relativement avancée en analytique (moteurs d'inférence en production) mais la gouvernance des données proprement dite reste faible. Un cadre de gouvernance est établi (rôles définis, outils identifiés) mais il n'est pas encore déployé (pas d'audits, pas d'installations, pas de déploiement des politiques). Le niveau moyen de maturité selon l'échelle de valeurs  donnée par \[R1\] reste proche de *1* (gouvernance locale, dispersée, réactive).
+En bref : Spotify a une capacité analytique relativement avancée (moteurs d'inférence en production) mais la gouvernance des données proprement dite reste faible. Un cadre de gouvernance est établi (rôles définis, outils identifiés) mais il n'est pas encore déployé (pas d'audits, pas d'installations, pas de déploiement des politiques sur le terrain). Le niveau moyen de maturité (1,25) selon l'échelle de valeurs  donnée par \[R1\] reste proche de *1* (gouvernance locale, dispersée, réactive).
 
 
 ###### 1.1.1. Evaluation des niveaux de maturité selon \[R1\]
 
-| Dimension                 | N (\*) | Justification                                                                                                                                                                            |  
-| ------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | 
-| **Data Governance**       | 1          | *Cadre de gouvernance* unifié non défini ; Rôles partiellement définis mais non implémentés.                                                                                               | 
-| **Data Quality**          | 1          | *Qualité* reconnue comme risque majeur ; A venir : *Cleansing*, *validation*, *monitoring*                                                                                          | 
-| **Data Architecture**     | 1          | Infrastructure sophistiquée (data lakes, cloud, temps réel) ; Absence de gouvernance, de méthodologie unifiée, de prise en compte de la création de valeur.                              |
-| **Data Operations**       | 1          | Pas de documentation de l'exploitation quotidienne : politiques de sécurité, usage, qualité, cycle de vie des actifs, sauvegarde, restauration, capacité, pannes, amélioration continue. |
-| **Compliance**            | 1          | Pas de vérification systématisée de la conformité ni de gestion spécifique des réglementations de l'IA.                                                                                |
-| **Data Usage & Accessibility** | 2      | Usage décisionnel local, limité par le silotage ; Exploitation orientée client (personnalisation, recommandation).                                                                       | 
-| **Data Security**              | 1          | Enjeu reconnu ; Dispositifs non documentés : classification, chiffrement, réponse aux incidents.                                                                                         | 
-| **Data Literacy**              | 2          | Culture *data-driven*, littératie de base, spécialistes data  reconnus ; Montée en compétence non structurée  ; Investissements non documentés.                                          | 
-| **Master & Reference Data**    | 1          | Domaines de master et reference data non documentés.                                                                                                                                     | 
-| **Metadata**                   | 1          | Pas de gouvernance des métadonnées, de lineages, de révision des standards.                                                                                                              | 
-| **Data Integration**           | 1          | Besoin d'intégration compris ; Silotage par département ; Usage actuel opportuniste ; Absence de processus formel.                                                                       | 
-| **Analytics & BI**             | 2          | Moteur de recommandation, analytique temps réel, big data, personnalisation ; Limité par la qualité des données d'entrée et l'absence de gouvernance de l'IA                             | 
+| Dimension                      | N (\*) | Justification                                                                                                                                                                            |     |
+| ------------------------------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| **Data Governance**            | 1      | *Cadre de gouvernance* unifié non défini ; Rôles partiellement définis mais non implémentés.                                                                                             |     |
+| **Data Quality**               | 1      | *Qualité* reconnue comme risque majeur ; A venir : *cleansing*, *validation*, *monitoring*                                                                                               |     |
+| **Data Architecture**          | 1      | Infrastructure sophistiquée (data lakes, cloud, temps réel) ; Absence de gouvernance, de méthodologie unifiée, de prise en compte de la création de valeur.                              |     |
+| **Data Operations**            | 1      | Pas de documentation de l'exploitation quotidienne : politiques de sécurité, usage, qualité, cycle de vie des actifs, sauvegarde, restauration, capacité, pannes, amélioration continue. |     |
+| **Compliance**                 | 1      | Pas de vérification systématisée de la conformité ni de gestion spécifique des réglementations de l'IA.                                                                                  |     |
+| **Data Usage & Accessibility** | 2      | Usage décisionnel local, limité par le silotage ; Exploitation orientée client (personnalisation, recommandation).                                                                       |     |
+| **Data Security**              | 1      | Enjeu reconnu ; Dispositifs non documentés : classification, chiffrement, réponse aux incidents.                                                                                         |     |
+| **Data Literacy**              | 2      | Culture *data-driven*, littératie de base, spécialistes data  reconnus ; Montée en compétence non structurée  ; Investissements non documentés.                                          |     |
+| **Master & Reference Data**    | 1      | Domaines de master et reference data non documentés.                                                                                                                                     |     |
+| **Metadata**                   | 1      | Pas de gouvernance des métadonnées, de lineages, de révision des standards.                                                                                                              |     |
+| **Data Integration**           | 1      | Besoin d'intégration compris ; Silotage par département ; Usage actuel opportuniste ; Absence de processus formel.                                                                       |     |
+| **Analytics & BI**             | 2      | Moteur de recommandation, analytique temps réel, big data, personnalisation ; Limité par la qualité des données d'entrée et l'absence de gouvernance de l'IA                             |     |
 
 > (\*) *Valeurs des niveaux de maturité  : 0: unmanaged, 1: initial ,  2: developing, 3: defined,  4: measured & managed , 5: optimized.*
 
@@ -48,13 +50,13 @@ En bref : Spotify a une capacité analytique relativement avancée en analytique
 
 ###### 1.1.2. Plan d'actions
 
-| Dimension                      | Actions |
-| ------------------------------ | ------- |
-| **Data Governance**            | Définir les autorités manquantes (\*\*) ; Implémenter l'organigramme ; Publier la politique d'entreprise.  |
-| **Data Quality**               | Définir les règles de qualité ; Outiller profiling, cleansing, monitoring continu, validation à l'entrée. |
+| Dimension                      | Actions                                                                                                                                                                                                                |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Data Governance**            | Définir les autorités manquantes (\*\*) ; Implémenter l'organigramme ; Publier la politique d'entreprise.                                                                                                              |
+| **Data Quality**               | Définir les règles de qualité ; Outiller profiling, cleansing, monitoring continu, validation à l'entrée.                                                                                                              |
 | **Data Architecture**          | Aligner l'architecture sur les cas d'usage de valeur ; Documenter les modèles ; Appliquer les méthodologies SDLC, DataOps, ModelOps.                                                                                   |
 | **Data Operations**            | Documenter les politiques de gestion des actifs ; Formaliser cycle de vie, sauvegarde, restauration, reporting des pannes ; Prioriser les requêtes selon la valeur créée ; Instaurer l'amélioration continue.          |
-| **Compliance**                 | Nommer un DPO ; Intégrer la vérification dans les processus ; Programmer des audits ; Gérer consentement et droits ; Aligner les paiements sur les réglementations ; Gérer la conformité IA.                           |
+| **Compliance**                 | Nommer un *DPO* ; Intégrer la vérification dans les processus ; Programmer des audits ; Gérer consentement et droits ; Aligner les paiements sur les réglementations ; Gérer la conformité IA.                         |
 | **Data Usage & Accessibility** | Déployer un catalogue ; Définir les accès par rôle ; Élargir l'usage décisionnel au-delà des équipes techniques ; Encadrer des services BI en accès libre.                                                             |
 | **Data Security**              | Contrôler l'accès par rôle ; Définir les plans de réponse aux incidents ; Outiller le chiffrement ; Tracer les évènements de sécurité ; Auditer.                                                                       |
 | **Data Literacy**              | Former à la gouvernance et à la qualité ; Investir dans la littératie de manière organisée et ciblée ; Définir une stratégie de rétention des spécialistes data ; Partager les responsabilités data entre les métiers. |
@@ -64,7 +66,6 @@ En bref : Spotify a une capacité analytique relativement avancée en analytique
 | **Analytics & BI**             | Gouverner l'IA (biais, conformité, éthique, explicabilité) ; Contrôler la qualité des données d'entraînement ; Mesurer la valeur générée.                                                                              |
 
 > (\*\*) *Data Governance Committee, Data Owners, Data Stewards, Data Custodians,  Model Owner, Model Risk Manager*.
-
 <div style="page-break-after: always;"></div>
 
 ## 1.2. Identification des enjeux majeurs de la gouvernance 
@@ -107,12 +108,13 @@ Le développement de *Spotify* autour d'une culture *data-driven* implique une *
 
 ## Références
 
+### Annexes
+- \[D1-Annexes\] [*Data Maturity Assessment Report's Annexes*](spotify-step-1-maturity-report--annexes.pdf)
 ### Ressources
 - \[R1\] [*Australian Government Data Maturity Assessment Tool* (2026)](0-AustralianDataMaturityAssessmentTool.pdf)
 - \[R2\] [Spotify Business Case](1-spotify-business-case.pdf)
 - \[R3\] [Data Maturity Assessment Template](2-data-maturity-assessment-template.pdf)
-- 
 ### Documents applicables
-- \[A1\]  _General Data Protection Regulation_ - Règlement (UE) 2016/679, 27 avril 2016. JO L 119, 4.5.2016.
-- \[A2\]  _California Consumer Privacy Act of 2018_, Cal. Civ. Code § 1798.100, amendé / CPRA (Prop. 24, 2020).
+- \[A1\] **\[GDPR\]**  _General Data Protection Regulation_ - Règlement (UE) 2016/679, 27 avril 2016. JO L 119, 4.5.2016.
+- \[A2\] **\[CCPA\]**  _California Consumer Privacy Act of 2018_, Cal. Civ. Code § 1798.100, amendé / CPRA (Prop. 24, 2020).
 - \[A3\] **\[PDPA\]** _Personal Data Protection Act 2012_ (No. 26 of 2012), Singapour, amendé en 2020.

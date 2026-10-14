@@ -1,5 +1,5 @@
 ---
-version: v13
+version: v14
 tags:
   - _RNCP38777
   - _2026
@@ -7,13 +7,14 @@ tags:
   - aia/bc01
   - spotify-project
   - spotify-project/step-2-2
-  - spotify-project/step-2-2/organizational-roles-and-responsabilities-chart
+  - spotify-project/step-2-2/roles-and-responsabilities-organizational-chart
 ---
 *SPOTIFY'S DATA & AI GOVERNANCE* PROJECT
 ===
-# 2.2. *Organizational Roles & Responsibilities* Chart
 
-> *Nicolas Pichon --- AIA RNCP 38777 / BC01  / Step 2-2 / v13 --- 2026/10/15.*
+# 2.2. *Roles & Responsibilities* Organizational Chart
+
+> *Nicolas Pichon --- AIA RNCP 38777 / BC01  / Step 2-2 / v14 --- 2026/10/15.*
 ---
 
 L'organigramme ci-dessous s'appuie sur les rôles pré-définis dans \[R6\] (*CDO*, *DPO*, *DGC*, *DS*) et sur les rôles manquants identifiés dans \[D1\] (*Data Owner*, *Data Custodian*, *Model Owner*, *Model Risk Manager*).
@@ -25,7 +26,7 @@ L'organigramme ci-dessous s'appuie sur les rôles pré-définis dans \[R6\] (*CD
 > (\*) *HoE* est *DO* des données d'infrastructure et de fonctionnement que le département produit et comprend en propre : journaux d'accès, journaux applicatifs, télémétrie, métriques d'infrastructure, journaux d'audit de sécurité.
 
 ###### Fonctionnement des rôles
-*CDO*, *DPO* et *Legal Team* rapportent directement au *CEO*. Le rattachement du *CDO* au *CEO* reprend la tendance dominante des organisations *data-driven*, celui du *DPO* répond à une exigence légale d'indépendance (RGPD, art. 38§3), et celui de *Legal Team* s'inspire d'une pratique qui permet d'éviter que l'ensemble de la fonction juridique soit subordonné au seul mandat de la protection des données.
+*CDO*, *DPO* et *Legal Team* rapportent directement au *CEO*. Le rattachement du *CDO* au *CEO* reprend la tendance dominante des organisations *data-driven*, celui du *DPO* répond à une exigence légale d'indépendance (RGPD, art. 38), et celui de *Legal Team* s'inspire d'une pratique qui permet d'éviter que l'ensemble de la fonction juridique soit subordonné au seul mandat de la protection des données.
 
 *Data Governance Committee* (DGC) est présidé par *CDO* et lui rapporte directement.
 
@@ -43,6 +44,9 @@ Les *Model Owners* sont intégrés dans le département *Product Development*, l
 
 ## Références
 
+### Annexes
+- \[D22-Annexes\] [*Organizational Chart's Annexes*](spotify-step-2-2-organizational-chart--annexes.pdf)
+
 ### Livrables
 - \[D1\] [*Data Maturity Assessment Report*](spotify-step-1-maturity-report.pdf)
 
@@ -50,3 +54,5 @@ Les *Model Owners* sont intégrés dans le département *Product Development*, l
 - \[R2\] [Spotify Business Case](1-spotify-business-case.pdf)
 - \[R6\] [Data Governance Roles Template](5-data-governance-roles-template.pdf)
 
+### Documents Applicables
+- \[A1\] **\[GDPR\]**  _General Data Protection Regulation_ - Règlement (UE) 2016/679, 27 avril 2016. JO L 119, 4.5.2016.

@@ -3,10 +3,12 @@ Certification AIA-RNCP38777
 # BC01 : Concevoir et piloter la gouvernance des données
 
 > Nom du bloc en anglais : *Data Governance and Strategy*.
+
 ## Sources
 - [France Compétences](https://www.francecompetences.fr/recherche/rncp/38777)
 - [Jedha Certification](https://app.jedha.co/certifications/rncp38777)
 - [Jedha Project](https://app.jedha.co/course/regulations-lds/data-governance-project-outline-lds)
+
 ## Compétences acquises
 Le bloc 1 de la certification atteste des compétences suivantes :
 
@@ -44,7 +46,7 @@ La formation est considérée comme validée lorsque le candidat a obtenu l'atte
 ## Livrables
 - Présenter 1 projet  :
     - Projet *Spotify*
-    	- Source : [*Lead Data Science/Data Gouvernance*)]
+    	- Source : [*Lead Data Science/Data Gouvernance*](https://app.jedha.co/course/regulations-lds/data-governance-project-outline-lds)
 - Livrables attendus :
     - Le **plan** de gouvernance, 
         - au format *Word*, *Google Doc* ou autre outil bureautique d'écriture ;

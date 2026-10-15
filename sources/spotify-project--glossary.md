@@ -18,6 +18,7 @@ tags:
 - **SDLC** : Software Development Life Cycle (i.e. planification, analyse des besoins, conception, développement, tests, déploiement, maintenance).
 - **DataOps** : Data Operations (ensemble des pratiques qui automatisent et fiabilisent la production de données pour l’analytique). 
 - **ModelOps** : Model Operations (gestion et gouvernance des modèles d’IA tout au long de leur cycle de vie en production).
+- 
 ## Roles
 
 - **CDO** : Chief Data Officier.
@@ -29,6 +30,11 @@ tags:
 - **DS** : Data Stewards.
 - **MO** : Model Owner.
 - **MRM** : Model Risk Manager.
+
+- **Responsible vs. Accountable** : Dans la matrice *RACI*, ***Responsible*** désigne ceux qui *réalisent* la tâche/l'activité, tandis que ***Accountable*** est la personne qui *approuve* le travail et *assume* ultimement sa réussite ou son échec.
+	- En français : 
+		- _responsible_ = « réalisateur / chargé de l’exécution », 
+		- _accountable_ = « redevable / responsable ultime ».
 
 ## Regulation
 

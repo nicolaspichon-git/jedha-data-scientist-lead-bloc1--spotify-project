@@ -1,5 +1,5 @@
 ---
-version: v15
+version: v16
 tags:
   - _RNCP38777
   - _2026
@@ -14,7 +14,7 @@ tags:
 ===
 # 2.1. *Data & AI Governance Policy* Document
 
-> *Nicolas Pichon --- AIA RNCP 38777 / BC01 / Step 2-1 / v15 --- 2026/10/15.* 
+> *Nicolas Pichon --- AIA RNCP 38777 / BC01 / Step 2-1 / v16 --- 2026/10/15.* 
 ---
 
 ## 2.1.1. Objectifs
@@ -50,7 +50,7 @@ Les principes énumérés ci-dessous sont issus du référentiel \[R4\] et repri
 
 **P7 - Droits des utilisateurs.** Les utilisateurs disposent de moyens effectifs pour accéder à, modifier, supprimer leurs données ou s'opposer à leur traitement, conformément aux droits GDPR et CCPA.
 
-**P8 - Éthique et gouvernance de l'IA.** L'usage des modèles d'IA fait l'objet d'une gouvernance dédiée : traçabilité des données d'entraînement, détection des biais algorithmiques, explicabilité des systèmes de décision automatisée.
+**P8 - Éthique et gouvernance de l'IA.** L'usage des modèles d'IA fait l'objet d'une gouvernance dédiée : traçabilité des données d'entraînement, détection des biais algorithmiques, explicabilité des systèmes de décision automatisée, responsabilisation et pilotage des processus de déploiement des modèles en production.
 
 **P9 - Amélioration continue.** Le cadre de gouvernance est révisé périodiquement pour tenir compte de l'évolution de la réglementation, des technologies, et des besoins de l'entreprise, avec des cycles de mesure de maturité alignés sur la méthodologie du *DMAT* \[R1\].
 

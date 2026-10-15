@@ -45,6 +45,7 @@ Trois niveaux d'impact sont définis en fonction de ces critères :
 | ***faible*** | Niveau d'impact part défaut (aucun des critères fort/modéré n'est satisfait) : |
 |              | --- Fonction auxiliaire sans exposition directe à l'utilisateur final        | 
 
+
 ####  2.1.A.3. Circuits d'approbation des modèles en fonction des niveaux d'impact
 
 | Niveau       | Circuit d'approbation de déploiement d'un version                                                                 |
@@ -57,6 +58,8 @@ Trois niveaux d'impact sont définis en fonction de ces critères :
 > - *Rôles MO, MRM, DGC : cf. rôles dans \[D22\],*
 > - *Responsabilités : R = Responsible, A = Accountable, C = Consulted (cf. matrices _RACI_ dans  \[D22-Annexes, §2.2.C\]).*
 
+<div style="page-break-after: always;"></div>
+
 #### 2.1.A.4. Classification, approbation et reclassification des modèles
 
 - La *classification* d'un modèle en fonction de son niveau d'impact porte sur le modèle en tant qu'entité conceptuelle et n'a lieu qu'une seule fois, lors de son enregistrement dans le registre des modèles.
@@ -64,6 +67,8 @@ Trois niveaux d'impact sont définis en fonction de ces critères :
 - La *reclassification* d'un modèle est un événement rare, déclenché soit par une modification substantielle du modèle (changement de finalité, extension de la portée d'usage), soit par une détection lors de l'audit par échantillonnage.
 
 Les responsabilités associées (*RACI*) figurent dans \[D22-Annexes, §2.2.C\].
+
+--- 
 
 <div style="page-break-after: always;"></div>
 
@@ -82,6 +87,10 @@ Le tableau ci-dessous relie les enjeux majeurs identifiés dans \[D1\] aux dispo
 
 > *Légende : DO, DS, DPO, Legal Team, MO, MRM : cf. rôles dans \[D22\].* 
 
+--- 
+
+<div style="page-break-after: always;"></div>
+
 ### 2.1.C. Couverture des actions attendues en gouvernance
 
 Le tableau ci-dessous relie les actions de principe attendues dans le guide des principes de gouvernance \[R4\] aux dispositions de la présente politique \[D21\].
@@ -99,8 +108,6 @@ Le tableau ci-dessous relie les actions de principe attendues dans le guide des 
 | P9  | Amélioration continue   | Revoir et actualiser régulièrement le cadre de gouvernance, en intégrant les retours et bonnes pratiques | E6 (transv.)     | Revues périodiques au §2.1.7, rendues mesurables par la méthodologie *DMAT* \[R1\] et par un objectif chiffré (niveau 1 > niveau 3)                                                                |     |
 
 > *Légende : CDO, DO, DS, MO, MRM : cf. rôles dans \[D22\].*
-
-<div style="page-break-after: always;"></div>
 
 ---
 

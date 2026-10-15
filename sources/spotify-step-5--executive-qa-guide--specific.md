@@ -1,16 +1,14 @@
 ---
-resource: R11
-title: Guide de questions-réponses pour dirigeants - version française adaptée
+version: v2
+status: draft
 source: 10-executive-qa-guide.pdf ([R11], 12 questions)
-adapted_to: D1 (v24), D21 (v15), D22 (v14), D3 (v15) et annexes (D21-Annexes v15, D22-Annexes v14, D3-Annexes v15)
-locale: fr
 ---
 
 # Guide de questions-réponses spécifique
 
-###### Méthode d'adaptation de \[R11\] 
+###### Méthode 
 
-Les 12 questions de [R11] sont traduites telles quelles. Chaque réponse est réécrite pour coller aux livrables : les affirmations génériques de [R11] sont remplacées par les choix, chiffres et limites documentés dans [D1], [D21], [D22], [D3] et leurs annexes. Chaque réponse est suivie de ses points d'appui (locators) et d'une note « Adaptation » qui indique ce qui change par rapport à [R11]. Les réponses sont rédigées pour être dites à l'oral (environ 1 minute à 1 minute 30, soit 140 à 195 mots).
+Chaque réponse est réécrite pour coller aux livrables : les affirmations génériques de [R11] sont remplacées par les choix, chiffres et limites documentés dans [D1], [D21], [D22], [D3] et leurs annexes. Chaque réponse est suivie de ses points d'appui (locators) et d'une note « Adaptation » qui indique ce qui change par rapport à [R11]. Les réponses sont rédigées pour être dites à l'oral (environ 1 minute à 1 minute 30, soit 140 à 195 mots).
 
 ###### Limite générale
 
@@ -18,10 +16,13 @@ Les 12 questions de [R11] sont traduites telles quelles. Chaque réponse est ré
 
 ---
 
-## Q1. Pourquoi Spotify a-t-il besoin d'un cadre de gouvernance des données ?
+## Q1. Pourquoi Spotify a-t-elle besoin d'un cadre de gouvernance des données dès maintenant ?
 
-**Réponse.**
-Parce que l'écart est aujourd'hui mesurable. Le diagnostic place Spotify à un niveau de maturité moyen de 1,25 sur 5 : une capacité analytique avancée, avec un moteur de recommandation en production, mais une gouvernance locale, réactive et dispersée. Le cadre est défini, avec des rôles et des outils, mais il n'est pas déployé : ni audit, ni monitoring, ni politique appliquée sur le terrain.
+###### *Réponse originale*
+_La portée mondiale de Spotify et le volume considérable de données qu'il traite rendent la garantie de la qualité, de la sécurité et de la conformité des données plus importante que jamais. Avec l'augmentation des exigences réglementaires, comme le RGPD, le CCPA et la norme PCI-DSS, ainsi que le besoin de rationaliser les flux de données dans l'ensemble des opérations mondiales, un cadre de gouvernance des données solide est indispensable pour préserver l'efficacité opérationnelle, éviter les amendes et gagner la confiance des utilisateurs._
+
+###### Réponse spécifique
+Parce que l'écart est aujourd'hui mesurable. Le diagnostic place *Spotify* à un niveau de maturité moyen de 1,25 sur 5 : une capacité analytique avancée, avec un moteur de recommandation en production, mais une gouvernance locale, réactive et dispersée. Le cadre est défini, avec des rôles et des outils, mais il n'est pas déployé : ni audit, ni monitoring, ni politique appliquée sur le terrain.
 
 En face, l'exposition augmente : plus de 450 millions d'utilisateurs actifs dans plus de 180 pays, des régimes hétérogènes (RGPD, CCPA, PDPA, PCI-DSS, nouvelles réglementations sur l'IA), des silos entre départements, et des modèles d'IA dont la traçabilité, les biais et l'approbation ne sont pas gouvernés. Agir maintenant permet de maintenir l'efficacité opérationnelle, d'éviter les sanctions et de préserver la confiance des utilisateurs, avant que cette dette de gouvernance ne grandisse avec l'échelle.
 
@@ -31,9 +32,14 @@ En face, l'exposition augmente : plus de 450 millions d'utilisateurs actifs dans
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ## Q2. Quel sera l'impact du cadre sur les opérations de données existantes ?
 
-**Réponse.**
+###### *Réponse originale*
+_Le cadre de gouvernance des données améliorera les opérations existantes en renforçant la qualité et la cohérence des données, en réduisant les silos de données et en simplifiant les processus de conformité. Des changements initiaux dans les rôles et les processus sont possibles, mais les bénéfices à long terme incluent des flux de données plus fluides, une meilleure prise de décision et une protection renforcée contre les violations de données._
+
+###### Réponse spécifique
 Le cadre ne remplace pas les opérations existantes : il leur ajoute des responsabilités explicites et des outils. Les départements gardent l'autorité sur leurs données, avec un *Data Owner* par département. Les *Data Stewards* ont un double rattachement : fonctionnel au CDO pour les standards, organisationnel au département. L'infrastructure technique reste dans Engineering, avec les *Data Custodians*, qui servent tous les départements.
 
 Les changements les plus concrets sont les suivants. Un catalogue commun (Collibra, OpenMetadata) et des contrôles de qualité (Soda Core) apparaissent. Les modèles d'IA passent par un circuit d'approbation proportionné à leur niveau d'impact. Les accès sont centralisés par un annuaire central et le SSO.
@@ -48,7 +54,15 @@ Le coût de ces changements est réel et nous l'assumons : il pèse d'abord sur 
 
 ## Q3. Quelle est la valeur business d'un investissement dans la gouvernance des données ?
 
-**Réponse.**
+###### *Réponse originale*
+_La valeur commerciale se décline de plusieurs manières :_
+
+- _**Économies :** en améliorant la qualité des données et en réduisant les inefficacités causées par des données de mauvaise qualité, nous pouvons optimiser nos opérations._
+- _**Conformité :** éviter des amendes coûteuses en respectant des réglementations comme le RGPD et le CCPA._
+- _**Confiance :** renforcer la sécurité et la transparence des données augmentera la confiance et la fidélité des utilisateurs._
+- _**Évolutivité :** le cadre garantit que l'infrastructure de données de Spotify pourra évoluer au rythme de sa base d'utilisateurs mondiale en croissance._
+
+###### Réponse spécifique
 Quatre sources de valeur, qui correspondent aux enjeux du diagnostic.
 
 - **Économies :** une meilleure qualité des données (E2) et la fin des silos (E1) réduisent les inefficiences liées à une donnée inexacte et des métadonnées obsolètes, qui dégradent aujourd'hui les recommandations.
@@ -66,7 +80,15 @@ Quatre sources de valeur, qui correspondent aux enjeux du diagnostic.
 
 ## Q4. Comment le cadre garantit-il la conformité RGPD / CCPA ?
 
-**Réponse.**
+###### *Réponse originale*
+_Le cadre intègre des mesures de conformité à chaque étape du traitement des données, notamment :_
+
+- _Des politiques claires pour obtenir le consentement des utilisateurs (la « base légale » du RGPD)._
+- _Des outils de gestion des demandes des utilisateurs concernant leurs données, comme l'accès, la modification ou la suppression (RGPD et CCPA)._
+- _Des mesures de minimisation et de sécurité des données alignées sur la norme PCI-DSS pour les informations de paiement sensibles._
+- _La désignation d'un délégué à la protection des données (DPO) chargé de surveiller la conformité dans toutes les régions._
+
+###### Réponse spécifique
 La politique traite chaque cadre séparément, avec ses exigences propres. Pour le RGPD : traitement licite, loyal et transparent, consentement explicite et éclairé, droits d'accès, de rectification et de suppression, notification des violations à l'autorité de contrôle sous 72 heures, et nomination d'un DPO. Pour le CCPA : transparence sur l'opt-out de la vente de données, droits d'accès, de modification et de suppression, non-discrimination. La minimisation (P6) et la sécurité alignée sur PCI-DSS complètent le dispositif pour les données de paiement.
 
 Côté outils, TrustArc fournit le registre des traitements, les analyses d'impact, la notification de violation et la gestion des demandes des personnes concernées. Côté organisation, le DPO est *Accountable* sur la conformité et les droits des utilisateurs, avec la Legal Team en appui. Un processus de cartographie réglementaire, marché par marché (le PDPA à Singapour, par exemple), couvre la dimension multi-juridictionnelle.
@@ -81,8 +103,11 @@ Un point de vigilance : le pilote ne couvre pas la conformité complète au RGPD
 
 ## Q5. Quel modèle organisationnel recommander, et pourquoi ?
 
-**Réponse.**
-Nous recommandons le modèle Center of Excellence, adapté à Spotify. Il combine une gouvernance centralisée, portée par le CDO et le comité de gouvernance, avec des départements partiellement autonomes qui gardent la responsabilité opérationnelle de leurs données.
+###### *Réponse originale*
+_Je recommande le modèle de centre d'excellence (CoE). Il combine une gouvernance centralisée solide avec une flexibilité permettant à chaque département de gérer ses besoins spécifiques en matière de données. Cette approche hybride garantit que les principes fondamentaux de la gouvernance des données restent cohérents, tout en permettant aux équipes d'adapter les solutions à leurs défis particuliers. C'est le modèle le mieux adapté à la structure mondiale et diversifiée de Spotify._
+
+###### Réponse spécifique
+Nous recommandons un modèle Center of Excellence modifié, adapté à l'existant chez Spotify. Il combine une gouvernance centralisée, portée par le CDO et le comité de gouvernance, avec des départements partiellement autonomes qui gardent la responsabilité opérationnelle de leurs données.
 
 Nous l'avons comparé aux deux autres modèles courants. Le modèle centralisé retirerait aux *Data Owners* l'autorité de proximité dont ils ont besoin, alors que les départements se sont déjà approprié la donnée. Le modèle embarqué reconduirait les silos et disperserait les ressources juridiques. Le Center of Excellence est le seul à répondre simultanément à trois enjeux : le décloisonnement (E1), la conformité multi-juridictionnelle (E3) et la gouvernance de l'IA (E5).
 
@@ -96,12 +121,20 @@ Nous l'adaptons sur deux points : l'infrastructure technique reste dans Engineer
 
 ## Q6. Comment mesurer le succès du cadre de gouvernance ?
 
-**Réponse.**
+###### *Réponse originale*
+_Le succès sera mesuré à travers :_
+
+- _**Amélioration des indicateurs de qualité des données :** moins d'écarts, d'erreurs et de doublons._
+- _**Respect de la conformité :** aucune sanction ni amende réglementaire._
+- _**Efficacité opérationnelle :** accès plus rapide aux données, moins de retards liés aux silos de données et processus de reporting rationalisés._
+- _**Confiance des utilisateurs :** plus de transparence et moins de plaintes concernant l'utilisation des données._
+
+###### Réponse spécifique
 Nous mesurons le succès avec l'échelle de maturité DMAT, la même que celle du diagnostic initial. Au terme du pilote, trois dimensions sont réévaluées : *Data Governance* et *Data Quality* passent du niveau 1 au niveau 2, *Analytics & BI* (volet gouvernance de l'IA) du niveau 2 au niveau 3. La re-cotation est faite à la revue intermédiaire, puis à la revue finale, où le comité de gouvernance valide le score final. L'objectif à moyen terme est le niveau 3 à l'échelle de l'organisation.
 
 Le pilote suit aussi des indicateurs opérationnels : le double rattachement des *Data Stewards* (adoption des standards, délai de propagation, fréquence de sollicitation, cohérence terminologique, autonomie départementale), le délai d'approbation des modèles par niveau d'impact, et la charge d'ingénierie des *Data Custodians*.
 
-Une précision honnête : la re-cotation DMAT reste un jugement qualitatif, validé par le comité pour limiter l'auto-évaluation. Les résultats alimentent ensuite une décision feu vert, orange ou rouge pour chaque dispositif avant la généralisation.
+Une précision honnête : la re-cotation DMAT reste un jugement qualitatif, validé par le comité pour limiter l'auto-évaluation. Les résultats alimentent ensuite une décision feu V/O/R pour chaque dispositif avant la généralisation.
 
 **Points d'appui.** [D21, §2.1.7] ; [D3, §3.5] (indicateurs) ; [D3-Annexes, §3.F.6] (KPIs, méthode, nature de l'exercice) ; [D3-Annexes, §3.F.10] ; [D3-Annexes, §3.G.1] (critères de passage à l'échelle).
 
@@ -111,7 +144,7 @@ Une précision honnête : la re-cotation DMAT reste un jugement qualitatif, vali
 
 ## Q7. Combien de temps pour mettre en œuvre intégralement le cadre ?
 
-**Réponse.**
+###### Réponse spécifique
 Le déploiement est progressif, sur 22 à 24 mois au total.
 
 Le pilote dure 21 semaines, soit environ cinq mois, dans la fourchette de trois à six mois de référence. Il inclut sept semaines de phase de sécurisation bloquante : annuaire central, migration des accès, intégration SSO. Il porte sur le système de recommandation de Product Development.
@@ -126,9 +159,11 @@ La durée totale atteint la borne haute de la fourchette de référence, 15 à 2
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ## Q8. Quels sont les coûts associés à la mise en œuvre du cadre ?
 
-**Réponse.**
+###### Réponse spécifique
 Les livrables identifient les postes de coût, mais ne les chiffrent pas encore. Nous préférons le dire que présenter un montant que nous ne pouvons pas défendre.
 
 - **Outils.** Deux outils sont sous licence commerciale, Collibra et TrustArc, car les enjeux à risque réglementaire chiffrable (E3, E4) justifient des garanties de service contractuelles. Les autres sont open source : l'économie de licence est compensée par l'hébergement et l'exploitation, que la capacité d'ingénierie interne de Spotify doit absorber. Wazuh remplace ainsi un SIEM commercial facturé au volume de données.
@@ -146,7 +181,7 @@ Nous anticipons aussi le décalage possible avec les cycles budgétaires trimest
 
 ## Q9. Comment le cadre s'adaptera-t-il à l'évolution des réglementations et des technologies ?
 
-**Réponse.**
+###### Réponse spécifique
 Il est conçu pour évoluer, à trois niveaux.
 
 - **Réglementation.** Un processus de veille légale est inscrit dans la politique (principe P5). Il est complété par une cartographie réglementaire marché par marché, pilotée par la Legal Team et le DPO. Un nouveau marché est cartographié séparément, en complément du socle.
@@ -161,9 +196,11 @@ Pour l'IA, les exigences d'explicabilité sont déjà alignées sur les obligati
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ## Q10. Comment traiter les données utilisateur sensibles de manière sécurisée dans ce cadre ?
 
-**Réponse.**
+###### Réponse spécifique
 La sécurité est le principe P3 de la politique : chiffrement, contrôle d'accès par rôle, protocoles PCI-DSS pour les données de paiement. La minimisation (P6) réduit en amont l'exposition en cas de violation.
 
 La mise en œuvre commence par une phase de sécurisation bloquante, au tout début du pilote. Elle établit un annuaire central avec SSO, vérifie la sécurisation de l'infrastructure existante, collecte les droits d'accès pour les centraliser, et déploie OpenBao pour la gestion des clés et des secrets. Wazuh assure la détection d'événements de sécurité. Ces outils sont opérés par les *Data Custodians*.
@@ -180,14 +217,18 @@ Une limite : aucun schéma formel de classification des données n'est encore é
 
 ## Q11. Quels sont les principaux risques de ce cadre, et comment les atténuer ?
 
-**Réponse.**
-Nous distinguons les risques du pilote, ceux de la phase de sécurisation, et ceux de la généralisation.
+###### Réponse spécifique
 
-- **Suspension du projet sans repli.** L'absence d'un annuaire d'entreprise central, prérequis du SSO, bloquerait tout le dispositif. Ce prérequis devient alors un chantier d'infrastructure séparé, et le projet ne se poursuit pas tant qu'il n'est pas livré.
+Nous distinguons trois sources de risque: 
+ - les risques du pilote, 
+ - ceux de la phase de sécurisation, 
+ - et ceux de la généralisation.
+
+- **Suspension du projet sans solution de repli.** L'absence d'un annuaire d'entreprise central, prérequis du SSO, bloquerait tout le dispositif. Ce prérequis devient alors un chantier d'infrastructure séparé, et le projet ne se poursuit pas tant qu'il n'est pas livré.
 - **Débordement de planning.** Il vient du délai de réponse de TrustArc, d'un échec du test d'intégration sans marge pour une seconde itération, et d'une phase d'exécution compressée à quatre semaines. Nous gérons les accès manuellement en dérogation temporaire si besoin, et envisageons un rallongement ponctuel plutôt que de clôturer sur des données fragiles.
 - **Charge des *Data Custodians* sous-estimée** (probabilité élevée). Elle est suivie chaque semaine et arbitrée à la revue intermédiaire, avec une option d'offre managée.
 - **Résistance au changement.** Formation ciblée du *Data Steward* et du *Product Manager* sur le double rattachement, et retours des parties prenantes collectés à la revue finale.
-- **Dépassements de budget et de calendrier.** Marges de deux mois entre les phases, et décision feu vert, orange ou rouge à chaque jalon, avec anticipation de la demande budgétaire de la phase suivante.
+- **Dépassements de budget et de calendrier.** Marges de deux mois entre les phases, et décision feu V/O/R à chaque jalon, avec anticipation de la demande budgétaire de la phase suivante.
 
 **Points d'appui.** [D3, §3.5] (risques) ; [D3-Annexes, §3.F.8] (tableau complet : probabilités, impacts, mitigations) ; [D3-Annexes, §3.F.9] ; [D3-Annexes, §3.G.1] ; [D3-Annexes, §3.G.4] ; [R11, Q11].
 
@@ -195,9 +236,11 @@ Nous distinguons les risques du pilote, ceux de la phase de sécurisation, et ce
 
 ---
 
+<div style="page-break-after: always;"></div>
+
 ## Q12. Ce cadre affectera-t-il l'agilité de Spotify dans l'innovation et le développement produit ?
 
-**Réponse.**
+###### Réponse spécifique
 Il est conçu pour que la plupart des modèles ne soient pas freinés, mais nous ne dirons pas qu'il n'y aura aucun effet.
 
 Le circuit d'approbation des modèles est proportionné à leur impact. Un modèle à impact faible, une fonction auxiliaire, est auto-certifié par son *Model Owner* sur la base d'une checklist, avec un simple contrôle *a posteriori* par échantillonnage. Un modèle à impact modéré passe par le *Model Owner* puis le *Model Risk Manager*. Seuls les modèles à fort impact suivent le circuit complet jusqu'au comité de gouvernance. La classification d'un modèle n'est faite qu'une seule fois : chaque nouvelle version en hérite le niveau, sans réouvrir la question.

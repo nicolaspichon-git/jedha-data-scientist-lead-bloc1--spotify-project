@@ -36,6 +36,8 @@ tags:
 | **E5** | Gouverner spécifiquement les données *IA*                                   | *MLflow*, *DVC*, *AIF360*, *AIX360* opérés par MO/MRM (\[D3, §3.4\]) ; circuit de gouvernance proportionné au niveau d'impact du modèle - classification unique à la création, approbation de déploiement héritée à chaque version, contrôle a posteriori et reclassification en cas rares (\[D21-Annexes, §2.1.A\]) ; calibration des seuils en pilote (§3.F.2, §3.F.4, §3.G.1)                                                              |
 | **E6** | Accompagner la montée en compétences *data*                                 | Volet formation et accompagnement au changement (§3.F.9), reconduit à chaque phase de généralisation (§3.G.2)                                                                                                                                                                                                                                                                                                      |
 
+---
+
 <div style="page-break-after: always;"></div>
 
 ### 3.B. Les modèles d'organisation de la gouvernance *data*
@@ -80,6 +82,8 @@ Le modèle générique *CoE* place la plateforme technique partagée au sein du 
 Le modèle générique *CoE* se structure normalement autour d'un unique hub générique et ne distingue pas les autorités de gouvernance et de conformité. Dans l'implémentation \[D22\], au contraire, les deux autorités sont rattachées directement au *CEO* et ne sont pas hiérarchisées entre elles. L'autorité de gouvernance des données (standards, qualité, stratégie) est représentée par les rôles *CDO* et *Data Governance Committee*. L'autorité de conformité est représentée par les rôles *DPO* et *Legal Team*.
 
 **Surcoût du modèle _CoE_**. Le *CoE* est difficile à adapter aux petites et moyennes structures du fait de la charge que représente la mise en place d'une mécanisme supplémentaire de coordination entre centre et départements. Mais *Spotify* n'est pas une petite structure : 450 millions d'utilisateurs actifs (2023, \[R2\]), couverture de plus 180 pays, plusieurs départements autonomes, prise en charge de régimes réglementaires hétérogènes. À cette échelle, la charge de coordination supplémentaire n'est pas un coût additionnel mais une nécessité fonctionnelle, que seul ce modèle est structurellement conçu pour absorber.
+
+---
 
 <div style="page-break-after: always;"></div>
 
@@ -177,6 +181,8 @@ Le périmètre fonctionnel de ces outils est spécifique aux enjeux de gouvernan
 
 *AIX360* (_AI Explainability 360_) est une boîte à outils open-source, créée par *IBM Research* et donnée à *Linux Foundation*, pour comprendre et expliquer des modèles ML et des jeux de données (tabulaires, texte, images, séries temporelles).
 
+---
+
 <div style="page-break-after: always;"></div>
 
 ### 3.D. Sécurisation des données d'entrainement et des modèles
@@ -232,6 +238,8 @@ On considère que les processus *0A* (ingestion brute) et *0B* (ETL) sont déjà
 - *RBAC* et/ou synchronisation *SSO* natifs des outils (processus 02-16) :
 	- fonctionnalité présumée, non vérifiée ; 
 
+---
+
 <div style="page-break-after: always;"></div>
 
 ### 3.E. Calculabilité des niveaux d'impact des modèles
@@ -250,6 +258,8 @@ Les niveaux d'impact (fort, modéré, faible) et leurs critères sont définis d
 | ***faible*** | Modèle auxiliaire, sans exposition directe à l'utilisateur final, aucun critère de fort impact rempli | Par défaut, si aucun seuil automatique n'est franchi | - |
 
 > (\*) Sauf pour la mesure de l'*effet significatif* (déclaré).
+
+---
 
 <div style="page-break-after: always;"></div>
 
@@ -466,6 +476,8 @@ Cette section consolide en un processus explicite les livrables individuels prod
 **Recueil des retours des parties prenantes.** Les retours du Data Steward, du Model Owner et du Data Owner (§3.F.3) sont recueillis de façon structurée lors de la revue finale, distincts des indicateurs quantitatifs - notamment sur le mécanisme de double rattachement (§3.F.1 ; indicateurs quantitatifs dédiés : §3.F.6) et sur la lisibilité du circuit de classification et d'approbation par niveau d'impact, deux points identifiés comme sources potentielles de friction dès la conception du plan.
 
 Cette synthèse d'évaluation est le document d'entrée de la décision de généralisation (§3.G.1) : elle précède et alimente les critères de passage à l'échelle, plutôt que de leur être parallèle.
+
+---
 
 <div style="page-break-after: always;"></div>
 

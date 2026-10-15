@@ -39,6 +39,8 @@ tags:
 | **Product Managers**          | PM  | Incarnent les *DOs* du département *Product Development*                                                                              | Intégrer la gouvernance dans le développement produit \[R2\]                                                                               |
 | **Content Managers**          | -   | Incarnent les *DOs* du département *Content Curation*                                                                                 | Intégrer la gouvernance dans la gestion des contenus |
 
+---
+
 <div style="page-break-after: always;"></div>
 
 ### 2.2.B. Couverture des enjeux définis en évaluation
@@ -54,6 +56,8 @@ tags:
 - **E5 (gouvernance IA)** : partiellement résolu par la création des *Model Owners* (intégrés dans le département *Product Development*) et du *Model Risk Manager* (contrôle indépendant). La structure établit les responsabilités de gouvernance IA absentes de \[D1\] mais ne définit pas les procédures de détection de biais ni les seuils d'approbation, qui relèvent de la mise en œuvre.
 
 - **E6 (montée en compétences data)** : partiellement résolu par le partage de la responsabilité data entre les métiers via les *Data Owners* et les *Data Stewards* (intégrés dans chaque département). En distribuant des rôles data nommés au sein des métiers plutôt qu'en les concentrant dans une équipe technique isolée, la structure organisationnelle diffuse la culture de gouvernance et atténue la résistance au changement. La formation, la stratégie de rétention des spécialistes et l'investissement en littératie relèvent de la mise en œuvre.
+
+---
 
 <div style="page-break-after: always;"></div>
 
